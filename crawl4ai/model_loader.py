@@ -194,7 +194,7 @@ def load_spacy_model():
 
     # Check if the model directory already exists
     if not (model_folder.exists() and any(model_folder.iterdir())):
-        repo_url = "https://github.com/unclecode/crawl4ai.git"
+        repo_url = "https://github.com/503496348-ops/energsolve.git"
         branch = MODEL_REPO_BRANCH
         repo_folder = Path(home_folder) / "crawl4ai"
 

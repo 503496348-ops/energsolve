@@ -3,7 +3,7 @@ requires = ["setuptools>=64.0.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "Crawl4AI"
+name = "energsolve"
 dynamic = ["version"]
 description = "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & scraper"
 readme = "README.md"
@@ -18,7 +18,7 @@ dependencies = [
     "aiosqlite~=0.20",
     "anyio>=4.0.0",
     "lxml~=5.3",
-    "AtomCollide-智械工坊-litellm==1.81.13",
+    "litellm>=1.81.13",
     "numpy>=1.26.0,<3",
     "pillow>=10.4",
     "playwright>=1.49.0",

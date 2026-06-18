@@ -32,7 +32,7 @@
 ### 安装
 
 ```bash
-pip install -U crawl4ai
+pip install -U energsolve
 playwright install
 ```
 
@@ -75,7 +75,7 @@ asyncio.run(analyze_competitor("https://competitor.com"))
 ### Installation
 
 ```bash
-pip install -U crawl4ai
+pip install -U energsolve
 playwright install
 ```
 

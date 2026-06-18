@@ -316,7 +316,7 @@ llm_schema.json:
         -c "css_selector=.dashboard-content" \\
         -o markdown
 
-For more documentation visit: https://github.com/unclecode/crawl4ai
+For more documentation visit: https://github.com/503496348-ops/energsolve
 
 8️⃣  Q&A with LLM:
     # Ask a question about the content
