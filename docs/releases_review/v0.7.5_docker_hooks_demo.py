@@ -17,7 +17,7 @@ All three approaches are part of this NEW v0.7.5 feature!
 Perfect for video recording and demonstration purposes.
 
 Requirements:
-- Docker container running: docker run -p 11235:11235 unclecode/crawl4ai:latest
+- Docker container running: docker run -p 11235:11235 AtomCollide-智械工坊/crawl4ai:latest
 - crawl4ai v0.7.5 installed: pip install crawl4ai==0.7.5
 """
 
@@ -562,7 +562,7 @@ async def main():
     if not check_docker_service():
         print("❌ Docker service is not running!")
         print("\n📋 To start the Docker service:")
-        print("   docker run -p 11235:11235 unclecode/crawl4ai:latest")
+        print("   docker run -p 11235:11235 AtomCollide-智械工坊/crawl4ai:latest")
         print("\nPlease start the service and run this demo again.")
         return
 
@@ -633,7 +633,7 @@ async def main():
 
     print("\n📚 Resources:")
     print("   • Docs: https://docs.crawl4ai.com")
-    print("   • GitHub: https://github.com/unclecode/crawl4ai")
+    print("   • GitHub: https://github.com/AtomCollide-智械工坊/crawl4ai")
     print("   • Discord: https://discord.gg/jP8KfhDhyN")
 
     print("\n" + "=" * 70)

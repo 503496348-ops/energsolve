@@ -468,8 +468,8 @@ async def demo_8_self_hosting_value():
     print("   • Manual controls for troubleshooting")
 
     print(f"\n🌐 Get Started:")
-    print(f"   docker pull unclecode/crawl4ai:0.7.7")
-    print(f"   docker run -d -p 11235:11235 --shm-size=1g unclecode/crawl4ai:0.7.7")
+    print(f"   docker pull AtomCollide-智械工坊/crawl4ai:0.7.7")
+    print(f"   docker run -d -p 11235:11235 --shm-size=1g AtomCollide-智械工坊/crawl4ai:0.7.7")
     print(f"   # Visit: {MONITOR_DASHBOARD_URL}")
 
 
@@ -552,7 +552,7 @@ def print_summary():
     print(f"• Dashboard: {MONITOR_DASHBOARD_URL}")
     print(f"• Health API: {CRAWL4AI_BASE_URL}/monitor/health")
     print(f"• Documentation: https://docs.crawl4ai.com/")
-    print(f"• GitHub: https://github.com/unclecode/crawl4ai")
+    print(f"• GitHub: https://github.com/AtomCollide-智械工坊/crawl4ai")
 
     print("\n" + "=" * 70)
     print("🎉 You're now in control of your web crawling destiny!")
@@ -574,8 +574,8 @@ async def main():
     if not server_running:
         print(f"❌ Cannot connect to Crawl4AI at {CRAWL4AI_BASE_URL}")
         print("\nPlease start the Docker container:")
-        print("  docker pull unclecode/crawl4ai:0.7.7")
-        print("  docker run -d -p 11235:11235 --shm-size=1g unclecode/crawl4ai:0.7.7")
+        print("  docker pull AtomCollide-智械工坊/crawl4ai:0.7.7")
+        print("  docker run -d -p 11235:11235 --shm-size=1g AtomCollide-智械工坊/crawl4ai:0.7.7")
         print("\nThen re-run this demo.")
         return
 
@@ -625,4 +625,4 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"\n\n❌ Demo failed: {e}")
         print("Make sure the Docker container is running:")
-        print("  docker run -d -p 11235:11235 --shm-size=1g unclecode/crawl4ai:0.7.7")
+        print("  docker run -d -p 11235:11235 --shm-size=1g AtomCollide-智械工坊/crawl4ai:0.7.7")

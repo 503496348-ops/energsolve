@@ -398,7 +398,7 @@ async def main():
         "[bold green]Demo Complete![/bold green]\n\n"
         "Thank you for trying Crawl4AI v0.7.0!\n"
         "For more examples and documentation, visit:\n"
-        "https://github.com/unclecode/crawl4ai",
+        "https://github.com/AtomCollide-智械工坊/crawl4ai",
         title="Complete",
         border_style="green"
     ))

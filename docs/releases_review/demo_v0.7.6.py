@@ -313,7 +313,7 @@ def main():
     except:
         print(f"❌ Cannot connect to Crawl4AI at {CRAWL4AI_BASE_URL}")
         print("Please start Docker container:")
-        print("  docker run -d -p 11235:11235 --env-file .llm.env unclecode/crawl4ai:0.7.6")
+        print("  docker run -d -p 11235:11235 --env-file .llm.env AtomCollide-智械工坊/crawl4ai:0.7.6")
         return
 
     # Start webhook server
@@ -352,7 +352,7 @@ def main():
     print("   • deploy/docker/WEBHOOK_EXAMPLES.md")
     print("   • docs/examples/docker_webhook_example.py")
     print("\n🔗 Upgrade:")
-    print("   docker pull unclecode/crawl4ai:0.7.6")
+    print("   docker pull AtomCollide-智械工坊/crawl4ai:0.7.6")
 
 
 if __name__ == "__main__":
