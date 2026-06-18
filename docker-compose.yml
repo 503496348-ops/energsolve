@@ -51,7 +51,7 @@ services:
   crawl4ai:
     # 1. Default: Pull multi-platform test image from Docker Hub
     # 2. Override with local image via: IMAGE=local-test docker compose up
-    image: ${IMAGE:-unclecode/crawl4ai:${TAG:-latest}}
+    image: ${IMAGE:-503496348-ops/energsolve:${TAG:-latest}}
     
     # Local build config (used with --build)
     build:

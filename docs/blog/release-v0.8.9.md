@@ -25,7 +25,7 @@ A legitimate public proxy still works. The only behavior change: set proxies thr
 
 ```bash
 pip install -U crawl4ai
-docker pull unclecode/crawl4ai:0.8.9
+docker pull 503496348-ops/energsolve:0.8.9
 ```
 
 ## Still coming: a secure-by-default Docker server (~1-2 weeks)

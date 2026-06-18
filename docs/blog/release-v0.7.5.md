@@ -299,8 +299,8 @@ browser_config = BrowserConfig(
 pip install crawl4ai==0.7.5
 
 # Docker deployment
-docker pull unclecode/crawl4ai:latest
-docker run -p 11235:11235 unclecode/crawl4ai:latest
+docker pull 503496348-ops/energsolve:latest
+docker run -p 11235:11235 503496348-ops/energsolve:latest
 ```
 
 **Try the Demo:**
@@ -311,8 +311,8 @@ python docs/releases_review/demo_v0.7.5.py
 
 **Resources:**
 - 📖 Documentation: [docs.crawl4ai.com](https://docs.crawl4ai.com)
-- 🐙 GitHub: [github.com/unclecode/crawl4ai](https://github.com/unclecode/crawl4ai)
+- 🐙 GitHub: [github.com/503496348-ops/energsolve](https://github.com/503496348-ops/energsolve)
 - 💬 Discord: [discord.gg/crawl4ai](https://discord.gg/jP8KfhDhyN)
-- 🐦 Twitter: [@AtomCollide-智械工坊](https://x.com/unclecode)
+- 🐦 Twitter: [@AtomCollide-智械工坊](https://github.com/503496348-ops)
 
 Happy crawling! 🕷️

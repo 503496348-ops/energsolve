@@ -220,10 +220,10 @@ password: ${{ secrets.DOCKER_TOKEN }}
 
 **Docker Tags Created**:
 ```
-unclecode/crawl4ai:1.2.3    # Exact version
-unclecode/crawl4ai:1.2      # Minor version
-unclecode/crawl4ai:1        # Major version
-unclecode/crawl4ai:latest   # Latest stable
+503496348-ops/energsolve:1.2.3    # Exact version
+503496348-ops/energsolve:1.2      # Minor version
+503496348-ops/energsolve:1        # Major version
+503496348-ops/energsolve:latest   # Latest stable
 ```
 
 **Platforms**:
@@ -294,7 +294,7 @@ Cached: Base image, system packages
 |----------|----------|------|------|
 | Docker Images | Docker Hub | 4 tags | 1-15 min |
 
-**Docker Hub URL**: https://hub.docker.com/r/unclecode/crawl4ai
+**Docker Hub URL**: https://hub.docker.com/r/503496348-ops/energsolve
 
 ---
 
@@ -343,8 +343,8 @@ git push origin v1.2.3
 pip install crawl4ai==1.2.3
 
 # Check Docker
-docker pull unclecode/crawl4ai:1.2.3
-docker run unclecode/crawl4ai:1.2.3 --version
+docker pull 503496348-ops/energsolve:1.2.3
+docker run 503496348-ops/energsolve:1.2.3 --version
 ```
 
 ### Manual Docker Rebuild
@@ -655,13 +655,13 @@ docker buildx build --platform linux/amd64,linux/arm64 ...
 **Pull Behavior**:
 ```bash
 # Docker automatically selects correct platform
-docker pull unclecode/crawl4ai:latest
+docker pull 503496348-ops/energsolve:latest
 
 # On M1 Mac: Pulls arm64 variant
 # On Intel Linux: Pulls amd64 variant
 
 # Force specific platform
-docker pull --platform linux/amd64 unclecode/crawl4ai:latest
+docker pull --platform linux/amd64 503496348-ops/energsolve:latest
 ```
 
 ### Semantic Versioning Strategy
@@ -706,16 +706,16 @@ Tags: 2.0.0, 2.0, 2, latest
 
 ```bash
 # Maximum stability (never updates)
-docker pull unclecode/crawl4ai:1.2.3
+docker pull 503496348-ops/energsolve:1.2.3
 
 # Get patch updates only
-docker pull unclecode/crawl4ai:1.2
+docker pull 503496348-ops/energsolve:1.2
 
 # Get minor updates (features, bug fixes)
-docker pull unclecode/crawl4ai:1
+docker pull 503496348-ops/energsolve:1
 
 # Always get latest (potentially breaking)
-docker pull unclecode/crawl4ai:latest
+docker pull 503496348-ops/energsolve:latest
 ```
 
 ### Cache Optimization Strategies
@@ -902,7 +902,7 @@ git commit -m "backup: workflow before modification"
 **Steps**:
 1. **Identify what succeeded**:
    - Check PyPI: `pip search crawl4ai`
-   - Check Docker Hub: https://hub.docker.com/r/unclecode/crawl4ai/tags
+   - Check Docker Hub: https://hub.docker.com/r/503496348-ops/energsolve/tags
    - Check GitHub Releases
 
 2. **Clean up partial release**:
@@ -987,7 +987,7 @@ Create issue template:
 - [ ] Monitor Release Pipeline workflow
 - [ ] Monitor Docker Release workflow
 - [ ] Verify PyPI: `pip install crawl4ai==1.2.3`
-- [ ] Verify Docker: `docker pull unclecode/crawl4ai:1.2.3`
+- [ ] Verify Docker: `docker pull 503496348-ops/energsolve:1.2.3`
 - [ ] Announce release
 ```
 

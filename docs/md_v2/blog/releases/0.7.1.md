@@ -39,5 +39,5 @@ No breaking changes - upgrade directly from v0.7.0.
 ---
 
 Questions? Issues? 
-- GitHub: [github.com/unclecode/crawl4ai](https://github.com/unclecode/crawl4ai)
+- GitHub: [github.com/503496348-ops/energsolve](https://github.com/503496348-ops/energsolve)
 - Discord: [discord.gg/crawl4ai](https://discord.gg/jP8KfhDhyN)

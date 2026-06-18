@@ -90,10 +90,10 @@ This document describes the technical architecture of the split release pipeline
 │  │  ┌──────────────────────────────────────────────┐     │   │
 │  │  │ 6. Push to Docker Hub                         │     │   │
 │  │  │    Tags:                                      │     │   │
-│  │  │    - unclecode/crawl4ai:1.2.3                │     │   │
-│  │  │    - unclecode/crawl4ai:1.2                  │     │   │
-│  │  │    - unclecode/crawl4ai:1                    │     │   │
-│  │  │    - unclecode/crawl4ai:latest               │     │   │
+│  │  │    - 503496348-ops/energsolve:1.2.3                │     │   │
+│  │  │    - 503496348-ops/energsolve:1.2                  │     │   │
+│  │  │    - 503496348-ops/energsolve:1                    │     │   │
+│  │  │    - 503496348-ops/energsolve:latest               │     │   │
 │  │  └──────────────────────────────────────────────┘     │   │
 │  └────────────────────────────────────────────────────────┘   │
 └─────────────────────────────────────────────────────────────────┘
@@ -105,7 +105,7 @@ This document describes the technical architecture of the split release pipeline
 │  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐         │
 │  │    PyPI      │  │  Docker Hub  │  │   GitHub     │         │
 │  │              │  │              │  │              │         │
-│  │  crawl4ai    │  │ unclecode/   │  │  Releases    │         │
+│  │  crawl4ai    │  │ atomcollide/   │  │  Releases    │         │
 │  │  1.2.3       │  │ crawl4ai     │  │  v1.2.3      │         │
 │  └──────────────┘  └──────────────┘  └──────────────┘         │
 └─────────────────────────────────────────────────────────────────┘
@@ -322,10 +322,10 @@ Cache Hit/Miss Logic:
 Input:  VERSION=1.2.3, MAJOR=1, MINOR=1.2
 
 Output Tags:
-  - unclecode/crawl4ai:1.2.3    (exact version)
-  - unclecode/crawl4ai:1.2      (minor version)
-  - unclecode/crawl4ai:1        (major version)
-  - unclecode/crawl4ai:latest   (latest stable)
+  - 503496348-ops/energsolve:1.2.3    (exact version)
+  - 503496348-ops/energsolve:1.2      (minor version)
+  - 503496348-ops/energsolve:1        (major version)
+  - 503496348-ops/energsolve:latest   (latest stable)
 ```
 
 **Tag Strategy**:
@@ -340,7 +340,7 @@ For each tag:
     Push image to Docker Hub
 
 Create manifest list:
-  Manifest: unclecode/crawl4ai:1.2.3
+  Manifest: 503496348-ops/energsolve:1.2.3
     ├─ linux/amd64: sha256:abc...
     └─ linux/arm64: sha256:def...
 
@@ -349,7 +349,7 @@ Docker CLI automatically selects correct platform on pull
 
 #### Output
 - **Docker Images**: 4 tags × 2 platforms = 8 image variants + 4 manifests
-- **Docker Hub**: https://hub.docker.com/r/unclecode/crawl4ai/tags
+- **Docker Hub**: https://hub.docker.com/r/503496348-ops/energsolve/tags
 
 #### Timeline
 
@@ -493,12 +493,12 @@ Source Code
         ├─► Image: linux/amd64
         │     │
         │     └─► Docker Hub
-        │           unclecode/crawl4ai:1.2.3-amd64
+        │           503496348-ops/energsolve:1.2.3-amd64
         │
         └─► Image: linux/arm64
               │
               └─► Docker Hub
-                    unclecode/crawl4ai:1.2.3-arm64
+                    503496348-ops/energsolve:1.2.3-arm64
 ```
 
 ---

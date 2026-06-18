@@ -72,10 +72,10 @@ jobs:
           context: .
           push: true
           tags: |
-            unclecode/crawl4ai:${{ steps.get_version.outputs.VERSION }}
-            unclecode/crawl4ai:${{ steps.versions.outputs.MINOR }}
-            unclecode/crawl4ai:${{ steps.versions.outputs.MAJOR }}
-            unclecode/crawl4ai:latest
+            503496348-ops/energsolve:${{ steps.get_version.outputs.VERSION }}
+            503496348-ops/energsolve:${{ steps.versions.outputs.MINOR }}
+            503496348-ops/energsolve:${{ steps.versions.outputs.MAJOR }}
+            503496348-ops/energsolve:latest
           platforms: linux/amd64,linux/arm64
           cache-from: type=gha
           cache-to: type=gha,mode=max
@@ -85,10 +85,10 @@ jobs:
           echo "## 🐳 Docker Release Complete!" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "### Published Images" >> $GITHUB_STEP_SUMMARY
-          echo "- \`unclecode/crawl4ai:${{ steps.get_version.outputs.VERSION }}\`" >> $GITHUB_STEP_SUMMARY
-          echo "- \`unclecode/crawl4ai:${{ steps.versions.outputs.MINOR }}\`" >> $GITHUB_STEP_SUMMARY
-          echo "- \`unclecode/crawl4ai:${{ steps.versions.outputs.MAJOR }}\`" >> $GITHUB_STEP_SUMMARY
-          echo "- \`unclecode/crawl4ai:latest\`" >> $GITHUB_STEP_SUMMARY
+          echo "- \`503496348-ops/energsolve:${{ steps.get_version.outputs.VERSION }}\`" >> $GITHUB_STEP_SUMMARY
+          echo "- \`503496348-ops/energsolve:${{ steps.versions.outputs.MINOR }}\`" >> $GITHUB_STEP_SUMMARY
+          echo "- \`503496348-ops/energsolve:${{ steps.versions.outputs.MAJOR }}\`" >> $GITHUB_STEP_SUMMARY
+          echo "- \`503496348-ops/energsolve:latest\`" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "### Platforms" >> $GITHUB_STEP_SUMMARY
           echo "- linux/amd64" >> $GITHUB_STEP_SUMMARY
@@ -96,5 +96,5 @@ jobs:
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "### 🚀 Pull Command" >> $GITHUB_STEP_SUMMARY
           echo "\`\`\`bash" >> $GITHUB_STEP_SUMMARY
-          echo "docker pull unclecode/crawl4ai:${{ steps.get_version.outputs.VERSION }}" >> $GITHUB_STEP_SUMMARY
+          echo "docker pull 503496348-ops/energsolve:${{ steps.get_version.outputs.VERSION }}" >> $GITHUB_STEP_SUMMARY
           echo "\`\`\`" >> $GITHUB_STEP_SUMMARY

@@ -28,7 +28,7 @@ flowchart TD
     C8 --> C9[Advanced Installation Complete]
     
     D --> D1{Deployment Method?}
-    D1 -->|Pre-built Image| D2[docker pull unclecode/crawl4ai]
+    D1 -->|Pre-built Image| D2[docker pull 503496348-ops/energsolve]
     D1 -->|Docker Compose| D3[Clone repo + docker compose]
     D1 -->|Custom Build| D4[docker buildx build]
     
@@ -277,7 +277,7 @@ sequenceDiagram
     Docker->>Registry: Push multi-arch manifest
     Registry-->>Docker: Build complete
     
-    User->>Registry: docker pull unclecode/crawl4ai
+    User->>Registry: docker pull 503496348-ops/energsolve
     Registry-->>User: Download appropriate architecture
     
     User->>Docker: docker run with configuration

@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     const repoLinkElement = headerContainer.querySelector('a[href*="github.com/"]'); // Find the existing GitHub link
-    let repoUrl = 'https://github.com/unclecode/crawl4ai';
+    let repoUrl = 'https://github.com/503496348-ops/energsolve';
     // if (repoLinkElement) {
     //     repoUrl = repoLinkElement.href;
     // } else {

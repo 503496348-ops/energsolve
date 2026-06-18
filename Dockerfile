@@ -7,7 +7,7 @@ LABEL c4ai.version=$C4AI_VER
 
 # Set build arguments
 ARG APP_HOME=/app
-ARG GITHUB_REPO=https://github.com/unclecode/crawl4ai.git
+ARG GITHUB_REPO=https://github.com/503496348-ops/energsolve.git
 ARG GITHUB_BRANCH=main
 ARG USE_LOCAL=true
 
@@ -32,7 +32,7 @@ ARG TARGETARCH
 # --build-arg REDIS_VERSION="6:7.2.7-1rl1~bookworm1" for a specific version.
 ARG REDIS_VERSION="6:7.2.7-1rl1~bookworm1"
 
-LABEL maintainer="unclecode"
+LABEL maintainer="AtomCollide"
 LABEL description="🔥🕷️ Crawl4AI: Open-source LLM Friendly Web Crawler & scraper"
 LABEL version="1.0"
 

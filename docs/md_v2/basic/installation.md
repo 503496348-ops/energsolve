@@ -44,7 +44,7 @@ pip install crawl4ai[all]
 For contributors who plan to modify the source code:
 
 ```bash
-git clone https://github.com/unclecode/crawl4ai.git
+git clone https://github.com/503496348-ops/energsolve.git
 cd crawl4ai
 pip install -e ".[all]"
 playwright install # Install Playwright dependencies
@@ -132,6 +132,6 @@ This script should successfully crawl the example website and print the first 50
 
 ## Getting Help
 
-If you encounter any issues during installation or usage, please check the [documentation](https://docs.crawl4ai.com/) or raise an issue on the [GitHub repository](https://github.com/unclecode/crawl4ai/issues).
+If you encounter any issues during installation or usage, please check the [documentation](https://docs.crawl4ai.com/) or raise an issue on the [GitHub repository](https://github.com/503496348-ops/energsolve/issues).
 
 Happy crawling! 🕷️🤖

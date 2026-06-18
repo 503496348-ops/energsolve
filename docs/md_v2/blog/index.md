@@ -75,10 +75,10 @@ Key highlights:
 
 ## Project History
 
-Curious about how Crawl4AI has evolved? Check out our [complete changelog](https://github.com/unclecode/crawl4ai/blob/main/CHANGELOG.md) for a detailed history of all versions and updates.
+Curious about how Crawl4AI has evolved? Check out our [complete changelog](https://github.com/503496348-ops/energsolve/blob/main/CHANGELOG.md) for a detailed history of all versions and updates.
 
 ## Stay Updated
 
-- Star us on [GitHub](https://github.com/unclecode/crawl4ai)
-- Follow [@AtomCollide-智械工坊](https://twitter.com/unclecode) on Twitter
+- Star us on [GitHub](https://github.com/503496348-ops/energsolve)
+- Follow [@AtomCollide-智械工坊](https://github.com/503496348-ops) on Twitter
 - Join our community discussions on GitHub

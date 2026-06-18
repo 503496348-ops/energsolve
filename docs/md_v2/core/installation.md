@@ -103,8 +103,8 @@ This step caches large models locally (if needed). **Only do this** if your wo
 We provide a **temporary** Docker approach for testing. **It’s not stable and may break** with future releases. We plan a major Docker revamp in a future stable version, 2025 Q1. If you still want to try:
 
 ```bash
-docker pull unclecode/crawl4ai:basic
-docker run -p 11235:11235 unclecode/crawl4ai:basic
+docker pull 503496348-ops/energsolve:basic
+docker run -p 11235:11235 503496348-ops/energsolve:basic
 ```
 
 You can then make POST requests to `http://localhost:11235/crawl` to perform crawls. **Production usage** is discouraged until our new Docker approach is ready (planned in Jan or Feb 2025).
@@ -126,4 +126,4 @@ Some older docs mention running Crawl4AI as a local server. This approach has be
 5. **Docker** is **experimental**—use at your own risk until the stable version is released.
 6. **Local server** references in older docs are largely deprecated; a new solution is in progress.
 
-**Got questions?** Check [GitHub issues](https://github.com/unclecode/crawl4ai/issues) for updates or ask the community!
+**Got questions?** Check [GitHub issues](https://github.com/503496348-ops/energsolve/issues) for updates or ask the community!

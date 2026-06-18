@@ -84,7 +84,7 @@ json.dumps(config_dict)  # Valid JSON
 docker run -d -p 11235:11235 \
     --shm-size=1g \
     -v ./my-cache:/app/.cache \
-    unclecode/crawl4ai:0.7.8
+    503496348-ops/energsolve:0.7.8
 ```
 
 ---
@@ -283,10 +283,10 @@ pip install crawl4ai==0.7.8
 
 ```bash
 # Pull the latest version
-docker pull unclecode/crawl4ai:0.7.8
+docker pull 503496348-ops/energsolve:0.7.8
 
 # Run
-docker run -d -p 11235:11235 --shm-size=1g unclecode/crawl4ai:0.7.8
+docker run -d -p 11235:11235 --shm-size=1g 503496348-ops/energsolve:0.7.8
 ```
 
 ---
@@ -314,9 +314,9 @@ Issues fixed: #1642, #1638, #1629, #1621, #1412, #1269, #1268, #1181, #1178, #11
 ## Support & Resources
 
 - **Documentation**: [docs.crawl4ai.com](https://docs.crawl4ai.com)
-- **GitHub**: [github.com/unclecode/crawl4ai](https://github.com/unclecode/crawl4ai)
+- **GitHub**: [github.com/503496348-ops/energsolve](https://github.com/503496348-ops/energsolve)
 - **Discord**: [discord.gg/crawl4ai](https://discord.gg/jP8KfhDhyN)
-- **Twitter**: [@AtomCollide-智械工坊](https://x.com/unclecode)
+- **Twitter**: [@AtomCollide-智械工坊](https://github.com/503496348-ops)
 
 ---
 

@@ -13,12 +13,12 @@
   </p>
 
   <p>
-    <a href="https://github.com/unclecode/crawl4ai/stargazers">
-      <img src="https://img.shields.io/github/stars/unclecode/crawl4ai?style=social"
+    <a href="https://github.com/503496348-ops/energsolve/stargazers">
+      <img src="https://img.shields.io/github/stars/503496348-ops/energsolve?style=social"
            alt="GitHub Stars"/>
     </a>
-    <a href="https://github.com/unclecode/crawl4ai/network/members">
-      <img src="https://img.shields.io/github/forks/unclecode/crawl4ai?style=social"
+    <a href="https://github.com/503496348-ops/energsolve/network/members">
+      <img src="https://img.shields.io/github/forks/503496348-ops/energsolve?style=social"
            alt="GitHub Forks"/>
     </a>
     <a href="https://badge.fury.io/py/crawl4ai">
@@ -36,8 +36,8 @@
       <img src="https://static.pepy.tech/badge/crawl4ai/month"
            alt="Downloads"/>
     </a>
-    <a href="https://github.com/unclecode/crawl4ai/blob/main/LICENSE">
-      <img src="https://img.shields.io/github/license/unclecode/crawl4ai"
+    <a href="https://github.com/503496348-ops/energsolve/blob/main/LICENSE">
+      <img src="https://img.shields.io/github/license/503496348-ops/energsolve"
            alt="License"/>
     </a>
   </p>
@@ -67,7 +67,7 @@ Limited slots._
 
 Crawl4AI is the #1 trending GitHub repository, actively maintained by a vibrant community. It delivers blazing-fast, AI-ready web crawling tailored for large language models, AI agents, and data pipelines. Fully open source, flexible, and built for real-time performance, **Crawl4AI** empowers developers with unmatched speed, precision, and deployment ease.
 
-> Enjoy using Crawl4AI? Consider **[becoming a sponsor](https://github.com/sponsors/unclecode)** to support ongoing development and community growth!
+> Enjoy using Crawl4AI? Consider **[becoming a sponsor](https://github.com/sponsors/503496348-ops)** to support ongoing development and community growth!
 
 ## 🆕 AI Assistant Skill Now Available!
 
@@ -179,13 +179,13 @@ Throughout these sections, you’ll find code samples you can **copy-paste** int
 
 ## Quick Links
 
-- **[GitHub Repo](https://github.com/unclecode/crawl4ai)**  
+- **[GitHub Repo](https://github.com/503496348-ops/energsolve)**  
 - **[Installation Guide](./core/installation.md)**  
 - **[Quick Start](./core/quickstart.md)**  
 - **[API Reference](./api/async-webcrawler.md)**  
-- **[Changelog](https://github.com/unclecode/crawl4ai/blob/main/CHANGELOG.md)**  
+- **[Changelog](https://github.com/503496348-ops/energsolve/blob/main/CHANGELOG.md)**  
 
 Thank you for joining me on this journey. Let’s keep building an **open, democratic** approach to data extraction and AI together.
 
 Happy Crawling!  
-— *Unclecode, Founder & Maintainer of Crawl4AI*  
+— *AtomCollide-智械工坊, Founder & Maintainer of Energsolve*  

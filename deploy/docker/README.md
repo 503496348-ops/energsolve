@@ -63,10 +63,10 @@ Our latest stable release is `0.8.6`. Images are built with multi-arch manifests
 
 ```bash
 # Pull the latest stable version (0.8.6)
-docker pull unclecode/crawl4ai:0.8.6
+docker pull 503496348-ops/energsolve:0.8.6
 
 # Or use the latest tag
-docker pull unclecode/crawl4ai:latest
+docker pull 503496348-ops/energsolve:latest
 ```
 
 #### 2. Setup Environment (API Keys)
@@ -100,7 +100,7 @@ EOL
       -p 11235:11235 \
       --name crawl4ai \
       --shm-size=1g \
-      unclecode/crawl4ai:0.8.6
+      503496348-ops/energsolve:0.8.6
     ```
 
 *   **With LLM support:**
@@ -111,7 +111,7 @@ EOL
       --name crawl4ai \
       --env-file .llm.env \
       --shm-size=1g \
-      unclecode/crawl4ai:0.8.6
+      503496348-ops/energsolve:0.8.6
     ```
 
 > The server will be available at `http://localhost:11235`. Visit `/playground` to access the interactive testing interface.
@@ -124,7 +124,7 @@ docker stop crawl4ai && docker rm crawl4ai
 
 #### Docker Hub Versioning Explained
 
-*   **Image Name:** `unclecode/crawl4ai`
+*   **Image Name:** `503496348-ops/energsolve`
 *   **Tag Format:** `LIBRARY_VERSION[-SUFFIX]` (e.g., `0.7.0-r1`)
     *   `LIBRARY_VERSION`: The semantic version of the core `crawl4ai` Python library
     *   `SUFFIX`: Optional tag for release candidates (``) and revisions (`r1`)
@@ -138,7 +138,7 @@ Docker Compose simplifies building and running the service, especially for local
 #### 1. Clone Repository
 
 ```bash
-git clone https://github.com/unclecode/crawl4ai.git
+git clone https://github.com/503496348-ops/energsolve.git
 cd crawl4ai
 ```
 
@@ -184,7 +184,7 @@ The `docker-compose.yml` file in the project root provides a simplified approach
     ```bash
     # Pulls and runs the release candidate from Docker Hub
     # Automatically selects the correct architecture
-    IMAGE=unclecode/crawl4ai:0.8.6 docker compose up -d
+    IMAGE=503496348-ops/energsolve:0.8.6 docker compose up -d
     ```
 
 *   **Build and Run Locally:**
@@ -957,14 +957,14 @@ You can override the default `config.yml`.
           --env-file .llm.env \
           --shm-size=1g \
           -v $(pwd)/my-custom-config.yml:/app/config.yml \
-          unclecode/crawl4ai:latest # Or your specific tag
+          503496348-ops/energsolve:latest # Or your specific tag
         ```
 
     *   **Using `docker-compose.yml`:** Add a `volumes` section to the service definition:
         ```yaml
         services:
           crawl4ai-hub-amd64: # Or your chosen service
-            image: unclecode/crawl4ai:latest
+            image: 503496348-ops/energsolve:latest
             profiles: ["hub-amd64"]
             <<: *base-config
             volumes:
@@ -1005,7 +1005,7 @@ You can override the default `config.yml`.
 We're here to help you succeed with Crawl4AI! Here's how to get support:
 
 - 📖 Check our [full documentation](https://docs.crawl4ai.com)
-- 🐛 Found a bug? [Open an issue](https://github.com/unclecode/crawl4ai/issues)
+- 🐛 Found a bug? [Open an issue](https://github.com/503496348-ops/energsolve/issues)
 - 💬 Join our [Discord community](https://discord.gg/crawl4ai)
 - ⭐ Star us on GitHub to show support!
 

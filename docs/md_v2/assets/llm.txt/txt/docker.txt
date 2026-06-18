@@ -6,7 +6,7 @@ Complete Docker deployment guide with pre-built images, API endpoints, configura
 
 ```bash
 # Pull latest image
-docker pull unclecode/crawl4ai:latest
+docker pull 503496348-ops/energsolve:latest
 
 # Setup LLM API keys
 cat > .llm.env << EOL
@@ -22,14 +22,14 @@ docker run -d \
   --name crawl4ai \
   --env-file .llm.env \
   --shm-size=1g \
-  unclecode/crawl4ai:latest
+  503496348-ops/energsolve:latest
 
 # Basic run (no LLM)
 docker run -d \
   -p 11235:11235 \
   --name crawl4ai \
   --shm-size=1g \
-  unclecode/crawl4ai:latest
+  503496348-ops/energsolve:latest
 
 # Check health
 curl http://localhost:11235/health
@@ -39,13 +39,13 @@ curl http://localhost:11235/health
 
 ```bash
 # Clone and setup
-git clone https://github.com/unclecode/crawl4ai.git
+git clone https://github.com/503496348-ops/energsolve.git
 cd crawl4ai
 cp deploy/docker/.llm.env.example .llm.env
 # Edit .llm.env with your API keys
 
 # Run pre-built image
-IMAGE=unclecode/crawl4ai:latest docker compose up -d
+IMAGE=503496348-ops/energsolve:latest docker compose up -d
 
 # Build locally
 docker compose up --build -d
@@ -64,7 +64,7 @@ docker compose down
 
 ```bash
 # Clone repository
-git clone https://github.com/unclecode/crawl4ai.git
+git clone https://github.com/503496348-ops/energsolve.git
 cd crawl4ai
 
 # Build for current architecture
@@ -384,7 +384,7 @@ docker run -d -p 11235:11235 \
   --env-file .llm.env \
   --shm-size=1g \
   -v $(pwd)/my-config.yml:/app/config.yml \
-  unclecode/crawl4ai:latest
+  503496348-ops/energsolve:latest
 
 # Method 2: Build with custom config
 # Edit deploy/docker/config.yml then build
@@ -449,13 +449,13 @@ docker run -d \
   --memory=8g \
   --cpus=4 \
   -v /path/to/custom-config.yml:/app/config.yml \
-  unclecode/crawl4ai:latest
+  503496348-ops/energsolve:latest
 
 # With Docker Compose for production
 version: '3.8'
 services:
   crawl4ai:
-    image: unclecode/crawl4ai:latest
+    image: 503496348-ops/energsolve:latest
     ports:
       - "11235:11235"
     environment:

@@ -25,14 +25,14 @@ The fastest answer is usually in the docs.
 
 For bugs, feature requests, and library issues:
 
-[**github.com/unclecode/crawl4ai/issues**](https://github.com/unclecode/crawl4ai/issues)
+[**github.com/503496348-ops/energsolve/issues**](https://github.com/503496348-ops/energsolve/issues)
 
 Please search existing issues first, and include a minimal reproducible example when filing a bug.
 
 ## Community
 
 - **Discord** — chat with other users and the team: [discord.gg/crawl4ai](https://discord.gg/crawl4ai)
-- **Twitter / X** — release news and tips: [@AtomCollide-智械工坊](https://twitter.com/unclecode)
+- **Twitter / X** — release news and tips: [@AtomCollide-智械工坊](https://github.com/503496348-ops)
 
 ## Status
 

@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 async function fetchGitHubStars() {
   try {
-    const response = await fetch('https://api.github.com/repos/unclecode/crawl4ai');
+    const response = await fetch('https://api.github.com/repos/503496348-ops/energsolve');
     const data = await response.json();
     const stars = data.stargazers_count;
     

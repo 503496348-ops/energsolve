@@ -153,7 +153,7 @@ How you deliver those is up to you. The protocol just ensures nothing important 
 
 ## Try It Yourself
 
-Curious about implementing this for your own library? The context generation tool will be open-sourced as part of Crawl4AI. If you're interested in early access or want to discuss the approach, drop me a DM on X [@AtomCollide-智械工坊](https://twitter.com/unclecode).
+Curious about implementing this for your own library? The context generation tool will be open-sourced as part of Crawl4AI. If you're interested in early access or want to discuss the approach, drop me a DM on X [@AtomCollide-智械工坊](https://github.com/503496348-ops).
 
 Because let's face it: if we're going to live in a world where AI writes half our code, we might as well teach it properly.
 

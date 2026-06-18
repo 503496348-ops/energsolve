@@ -356,7 +356,7 @@ config = CrawlerRunConfig(
 )
 ```
 
-This walks all shadow trees, resolves `<slot>` projections, and produces flat HTML. It also force-opens closed shadow roots via an init script. For details and a full example, see [Flattening Shadow DOM](content-selection.md#31-flattening-shadow-dom) and [`shadow_dom_crawling.py`](https://github.com/unclecode/crawl4ai/blob/main/docs/examples/shadow_dom_crawling.py).
+This walks all shadow trees, resolves `<slot>` projections, and produces flat HTML. It also force-opens closed shadow roots via an init script. For details and a full example, see [Flattening Shadow DOM](content-selection.md#31-flattening-shadow-dom) and [`shadow_dom_crawling.py`](https://github.com/503496348-ops/energsolve/blob/main/docs/examples/shadow_dom_crawling.py).
 
 ---
 

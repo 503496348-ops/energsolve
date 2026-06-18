@@ -257,9 +257,9 @@ Thanks to our contributors and community for feedback, bug reports, and feature 
 ## 📚 Resources
 
 - [Full Documentation](https://docs.crawl4ai.com)
-- [GitHub Repository](https://github.com/unclecode/crawl4ai)
+- [GitHub Repository](https://github.com/503496348-ops/energsolve)
 - [Discord Community](https://discord.gg/crawl4ai)
-- [LLM Table Extraction Examples](https://github.com/unclecode/crawl4ai/blob/main/docs/examples/llm_table_extraction_example.py)
+- [LLM Table Extraction Examples](https://github.com/503496348-ops/energsolve/blob/main/docs/examples/llm_table_extraction_example.py)
 
 ---
 

@@ -1,36 +1,36 @@
 # 💖 Sponsors & Supporters
 
-Thank you to everyone supporting Crawl4AI! Your sponsorship helps keep this project open-source and actively maintained.
+Thank you to everyone supporting Energsolve! Your sponsorship helps keep this project open-source and actively maintained.
 
 ## 👑 Founding Sponsors
 *The first 50 sponsors who believed in our vision - permanently recognized*
 
 <!-- Founding sponsors will be listed here with special recognition -->
-🎉 **Become a Founding Sponsor!** Only [X/50] spots remaining! [Join now →](https://github.com/sponsors/unclecode)
+🎉 **Become a Founding Sponsor!** Only [X/50] spots remaining! [Join now →](https://github.com/sponsors/503496348-ops)
 
 ---
 
 ## 🏢 Data Infrastructure Partners ($2000/month)
-*These organizations are building their data sovereignty with Crawl4AI at the core*
+*These organizations are building their data sovereignty with Energsolve at the core*
 
 <!-- Data Infrastructure Partners will be listed here -->
-*Be the first Data Infrastructure Partner! [Join us →](https://github.com/sponsors/unclecode)*
+*Be the first Data Infrastructure Partner! [Join us →](https://github.com/sponsors/503496348-ops)*
 
 ---
 
 ## 💼 Growing Teams ($500/month)
-*Teams scaling their data extraction with Crawl4AI*
+*Teams scaling their data extraction with Energsolve*
 
 <!-- Growing Teams will be listed here -->
-*Your team could be here! [Become a sponsor →](https://github.com/sponsors/unclecode)*
+*Your team could be here! [Become a sponsor →](https://github.com/sponsors/503496348-ops)*
 
 ---
 
 ## 🚀 Builders ($50/month)
-*Developers and entrepreneurs building with Crawl4AI*
+*Developers and entrepreneurs building with Energsolve*
 
 <!-- Builders will be listed here -->
-*Join the builders! [Start sponsoring →](https://github.com/sponsors/unclecode)*
+*Join the builders! [Start sponsoring →](https://github.com/sponsors/503496348-ops)*
 
 ---
 
@@ -44,7 +44,7 @@ Thank you to everyone supporting Crawl4AI! Your sponsorship helps keep this proj
 
 ## 🤝 Want to Sponsor?
 
-Crawl4AI is the #1 trending open-source web crawler. We're building the future of data extraction - where organizations own their data pipelines instead of relying on rate-limited APIs.
+Energsolve is the #1 trending open-source web crawler. We're building the future of data extraction - where organizations own their data pipelines instead of relying on rate-limited APIs.
 
 ### Available Sponsorship Tiers:
 - **🌱 Believer** ($5/mo) - Support the movement
@@ -52,7 +52,7 @@ Crawl4AI is the #1 trending open-source web crawler. We're building the future o
 - **💼 Growing Team** ($500/mo) - Bi-weekly syncs & optimization
 - **🏢 Data Infrastructure Partner** ($2000/mo) - Full partnership & dedicated support
 
-[View all tiers and benefits →](https://github.com/sponsors/unclecode)
+[View all tiers and benefits →](https://github.com/sponsors/503496348-ops)
 
 ### Enterprise & Custom Partnerships
 

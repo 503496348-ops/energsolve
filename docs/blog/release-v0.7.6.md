@@ -255,17 +255,17 @@ webhooks:
 
 ```bash
 # Pull the latest image
-docker pull unclecode/crawl4ai:0.7.6
+docker pull 503496348-ops/energsolve:0.7.6
 
 # Or use latest tag
-docker pull unclecode/crawl4ai:latest
+docker pull 503496348-ops/energsolve:latest
 
 # Run with webhook support
 docker run -d \
   -p 11235:11235 \
   --env-file .llm.env \
   --name crawl4ai \
-  unclecode/crawl4ai:0.7.6
+  503496348-ops/energsolve:0.7.6
 ```
 
 ### Python Package
@@ -304,7 +304,7 @@ Thank you to the community for the feedback that shaped this feature! Special th
 ## 📞 Support
 
 - **Documentation**: https://docs.crawl4ai.com
-- **GitHub Issues**: https://github.com/unclecode/crawl4ai/issues
+- **GitHub Issues**: https://github.com/503496348-ops/energsolve/issues
 - **Discord**: https://discord.gg/crawl4ai
 
 ---

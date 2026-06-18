@@ -8,7 +8,7 @@ We follow a GitFlow-inspired workflow to ensure predictability and quality. Rele
 
 - **main**: The stable branch containing production-ready code. It's always identical to the latest released version and is tagged for releases. Do not submit PRs directly here.
 - **develop**: The primary integration branch for ongoing development. This is where all contributions (bug fixes, minor features, documentation updates) are merged. Submit your pull requests targeting this branch.
-- **next**: Reserved for the lead maintainer (Unclecode) to experiment with major features, refactors, or cutting-edge changes. These are merged into `develop` when ready.
+- **next**: Reserved for the lead maintainer (AtomCollide-智械工坊) to experiment with major features, refactors, or cutting-edge changes. These are merged into `develop` when ready.
 - **release/vX.Y.Z**: Temporary branches created from `develop` for final release preparations (e.g., version bumps, demos, release notes). These are short-lived and deleted after the release.
 
 ## Contributor Workflow
@@ -44,7 +44,7 @@ If your PR involves breaking changes, include a migration guide in the descripti
 
 ## Lead Maintainer's Workflow (For Reference)
 
-- The lead maintainer (Unclecode) uses the `next` branch for isolated experimental work.
+- The lead maintainer (AtomCollide-智械工坊) uses the `next` branch for isolated experimental work.
 - Features from `next` are periodically merged into `develop` (via rebase and merge) to keep everything in sync.
 - This isolation ensures your contributions aren't disrupted by ongoing major changes.
 
@@ -56,7 +56,7 @@ Releases happen bi-weekly to ship improvements regularly. As a contributor, your
 - **Final Updates**:
     - Version bump in code (e.g., `__version__.py`).
     - Creation of a demo script in `examples/` to showcase new features.
-    - Writing release notes in `docs/blog/` (personal "I" voice from Unclecode, with code examples, impacts, and migration guides if needed).
+    - Writing release notes in `docs/blog/` (personal "I" voice from AtomCollide-智械工坊, with code examples, impacts, and migration guides if needed).
     - Documentation updates: README.md (highlights, version refs), mkdocs.yml (site_name with version), docs/blog/index.md (add new release), and copying notes to `docs/md_v2/blog/releases/`.
     - Docker updates: Dockerfile (version arg), docker-compose.yml, deploy/docker/README.md, and docs/md_v2/core/docker-deployment.md. A release candidate image (e.g., `X.Y.Z-r1`) is built and tested.
 - **Testing and Merge**: Full tests run; changes committed and merged to `main` with a tag.

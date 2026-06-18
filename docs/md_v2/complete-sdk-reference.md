@@ -84,8 +84,8 @@ crawl4ai-download-models
 ```
 ## 5. Docker (Experimental)
 ```bash
-docker pull unclecode/crawl4ai:basic
-docker run -p 11235:11235 unclecode/crawl4ai:basic
+docker pull 503496348-ops/energsolve:basic
+docker run -p 11235:11235 503496348-ops/energsolve:basic
 ```
 You can then make POST requests to `http://localhost:11235/crawl` to perform crawls. **Production usage** is discouraged until our new Docker approach is ready (planned in Jan or Feb 2025).
 ## 6. Local Server Mode (Legacy)
@@ -2859,7 +2859,7 @@ When enabled, Crawl4AI also injects an init script that force-opens closed shado
 js_code_before_wait → wait_for → delay → js_code → flatten_shadow_dom → page capture
 ```
 
-For a full runnable example, see [`shadow_dom_crawling.py`](https://github.com/unclecode/crawl4ai/blob/main/docs/examples/shadow_dom_crawling.py).
+For a full runnable example, see [`shadow_dom_crawling.py`](https://github.com/503496348-ops/energsolve/blob/main/docs/examples/shadow_dom_crawling.py).
 
 ## 4. Structured Extraction Examples
 ### 4.1 Pattern-Based with `JsonCssExtractionStrategy`
@@ -4128,7 +4128,7 @@ That's how you keep the config self-contained, illustrate **XPath** usage, and d
 ## 3. Advanced Schema & Nested Structures
 ### Sample E-Commerce HTML
 ```
-https://raw.githubusercontent.com/unclecode/crawl4ai/main/docs/examples/sample_ecommerce.html
+https://raw.githubusercontent.com/503496348-ops/energsolve/main/docs/examples/sample_ecommerce.html
 ```
 ```python
 schema = {
@@ -4253,7 +4253,7 @@ async def extract_ecommerce_data():
 
     async with AsyncWebCrawler(verbose=True) as crawler:
         result = await crawler.arun(
-            url="https://raw.githubusercontent.com/unclecode/crawl4ai/main/docs/examples/sample_ecommerce.html",
+            url="https://raw.githubusercontent.com/503496348-ops/energsolve/main/docs/examples/sample_ecommerce.html",
             extraction_strategy=strategy,
             config=config
         )

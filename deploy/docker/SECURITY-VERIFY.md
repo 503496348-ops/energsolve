@@ -23,7 +23,7 @@ Expected: all pass, `1 xfailed` (the `--no-sandbox` posture test, see §3).
 
 ```bash
 IMAGE=local-sec docker compose build
-# or: docker build -t unclecode/crawl4ai:local-sec .
+# or: docker build -t 503496348-ops/energsolve:local-sec .
 ```
 Expected: build succeeds. Note the `/app` dir is now root-owned + read-only and
 the artifact dir `/var/lib/crawl4ai/outputs` is created 0700.
@@ -35,7 +35,7 @@ the artifact dir `/var/lib/crawl4ai/outputs` is created 0700.
 ### 2a. No credential -> loopback only (refuses to expose)
 
 ```bash
-docker run --rm -p 11235:11235 unclecode/crawl4ai:local-sec &
+docker run --rm -p 11235:11235 503496348-ops/energsolve:local-sec &
 sleep 8
 docker logs <id> 2>&1 | grep -i "binding loopback only"   # expect this line
 curl -fsS http://localhost:11235/health                   # expect: NOT reachable
@@ -48,7 +48,7 @@ inside the container). This is the fail-closed default.
 
 ```bash
 TOKEN=$(openssl rand -hex 32)
-docker run --rm -e CRAWL4AI_API_TOKEN=$TOKEN -p 11235:11235 unclecode/crawl4ai:local-sec &
+docker run --rm -e CRAWL4AI_API_TOKEN=$TOKEN -p 11235:11235 503496348-ops/energsolve:local-sec &
 sleep 8
 curl -fsS http://localhost:11235/health                            # expect 200
 curl -fsS http://localhost:11235/schema                            # expect 401
@@ -65,7 +65,7 @@ Default keeps `--no-sandbox` (works as today). To verify the hardened path:
 Host: `sysctl -w kernel.unprivileged_userns_clone=1` (Debian/Ubuntu).
 ```bash
 docker run --rm -e CRAWL4AI_API_TOKEN=$TOKEN -e CRAWL4AI_CHROMIUM_SANDBOX=true \
-  -p 11235:11235 unclecode/crawl4ai:local-sec &
+  -p 11235:11235 503496348-ops/energsolve:local-sec &
 sleep 8
 curl -fsS -X POST http://localhost:11235/crawl \
   -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json" \

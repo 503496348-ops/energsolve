@@ -1,8 +1,8 @@
 site_name: Crawl4AI Documentation (v0.9.x)
 site_description:  🚀🤖 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper
 site_url: https://docs.crawl4ai.com
-repo_url: https://github.com/unclecode/crawl4ai
-repo_name: unclecode/crawl4ai
+repo_url: https://github.com/503496348-ops/energsolve
+repo_name: 503496348-ops/energsolve
 docs_dir: docs/md_v2
 
 nav:
@@ -22,7 +22,7 @@ nav:
     - "Self-Hosting Guide": "core/self-hosting.md"
   - "Blog & Changelog":
     - "Blog Home": "blog/index.md"
-    - "Changelog": "https://github.com/unclecode/crawl4ai/blob/main/CHANGELOG.md"
+    - "Changelog": "https://github.com/503496348-ops/energsolve/blob/main/CHANGELOG.md"
   - Core:
     - "Command Line Interface": "core/cli.md"
     - "Simple Crawling": "core/simple-crawling.md"
@@ -73,8 +73,8 @@ nav:
   - "Brand Book": "branding/index.md"
   - Community:
     - "Contributing Guide": "CONTRIBUTING.md"
-    - "Code of Conduct": "https://github.com/unclecode/crawl4ai/blob/main/CODE_OF_CONDUCT.md"
-    - "Contributors": "https://github.com/unclecode/crawl4ai/blob/main/CONTRIBUTORS.md"
+    - "Code of Conduct": "https://github.com/503496348-ops/energsolve/blob/main/CODE_OF_CONDUCT.md"
+    - "Contributors": "https://github.com/503496348-ops/energsolve/blob/main/CONTRIBUTORS.md"
   - Legal:
     - "Privacy Policy": "privacy.md"
     - "Terms of Service": "terms.md"

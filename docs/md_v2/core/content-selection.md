@@ -228,7 +228,7 @@ When `flatten_shadow_dom=True` is set, Crawl4AI also injects an init script that
 
 > **Tip**: Web components need JavaScript to run before they render content (a process called *hydration*). Use `wait_until="load"` and a `delay_before_return_html` of 2–5 seconds to ensure components are fully hydrated before flattening.
 
-For a complete runnable example, see [`shadow_dom_crawling.py`](https://github.com/unclecode/crawl4ai/blob/main/docs/examples/shadow_dom_crawling.py).
+For a complete runnable example, see [`shadow_dom_crawling.py`](https://github.com/503496348-ops/energsolve/blob/main/docs/examples/shadow_dom_crawling.py).
 
 ---
 

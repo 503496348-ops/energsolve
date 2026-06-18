@@ -54,7 +54,7 @@ Want to learn by doing? We've got you covered:
 
 **🚀 [Live Demo](https://docs.crawl4ai.com/apps/c4a-script/)** - Try C4A-Script in your browser right now!
 
-**📁 [Tutorial Examples](https://github.com/unclecode/crawl4ai/blob/main/docs/examples/c4a_script/)** - Complete examples with source code
+**📁 [Tutorial Examples](https://github.com/503496348-ops/energsolve/blob/main/docs/examples/c4a_script/)** - Complete examples with source code
 
 ### Running the Tutorial Locally
 

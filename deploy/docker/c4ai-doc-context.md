@@ -2145,7 +2145,7 @@ First, clone the repository and build the Docker image:
 
 ```bash
 # Clone the repository
-git clone https://github.com/unclecode/crawl4ai.git
+git clone https://github.com/503496348-ops/energsolve.git
 cd crawl4ai/deploy
 
 # Build the Docker image
@@ -2706,8 +2706,8 @@ curl http://localhost:8000/health
 ## Complete Examples
 
 Check out the `examples` folder in our repository for full working examples! Here are two to get you started:
-[Using Client SDK](https://github.com/unclecode/crawl4ai/blob/main/docs/examples/docker_python_sdk.py)
-[Using REST API](https://github.com/unclecode/crawl4ai/blob/main/docs/examples/docker_python_rest_api.py)
+[Using Client SDK](https://github.com/503496348-ops/energsolve/blob/main/docs/examples/docker_python_sdk.py)
+[Using REST API](https://github.com/503496348-ops/energsolve/blob/main/docs/examples/docker_python_rest_api.py)
 
 ## Server Configuration
 
@@ -2921,7 +2921,7 @@ docker run -d -p 8000:8000 \
 We're here to help you succeed with Crawl4AI! Here's how to get support:
 
 - 📖 Check our [full documentation](https://docs.crawl4ai.com)
-- 🐛 Found a bug? [Open an issue](https://github.com/unclecode/crawl4ai/issues)
+- 🐛 Found a bug? [Open an issue](https://github.com/503496348-ops/energsolve/issues)
 - 💬 Join our [Discord community](https://discord.gg/crawl4ai)
 - ⭐ Star us on GitHub to show support!
 
@@ -3301,8 +3301,8 @@ This step caches large models locally (if needed). **Only do this** if your wo
 We provide a **temporary** Docker approach for testing. **It’s not stable and may break** with future releases. We plan a major Docker revamp in a future stable version, 2025 Q1. If you still want to try:
 
 ```bash
-docker pull unclecode/crawl4ai:basic
-docker run -p 11235:11235 unclecode/crawl4ai:basic
+docker pull 503496348-ops/energsolve:basic
+docker run -p 11235:11235 503496348-ops/energsolve:basic
 ```
 
 You can then make POST requests to `http://localhost:11235/crawl` to perform crawls. **Production usage** is discouraged until our new Docker approach is ready (planned in Jan or Feb 2025).
@@ -3324,7 +3324,7 @@ Some older docs mention running Crawl4AI as a local server. This approach has be
 5. **Docker** is **experimental**—use at your own risk until the stable version is released.
 6. **Local server** references in older docs are largely deprecated; a new solution is in progress.
 
-**Got questions?** Check [GitHub issues](https://github.com/unclecode/crawl4ai/issues) for updates or ask the community!
+**Got questions?** Check [GitHub issues](https://github.com/503496348-ops/energsolve/issues) for updates or ask the community!
 ```
 
 
@@ -5749,7 +5749,7 @@ With these power tools, you can build robust scraping workflows that mimic real 
 
 We’re excited to announce a **Crawl Dispatcher** module that can handle **thousands** of crawling tasks simultaneously. By efficiently managing system resources (memory, CPU, network), this dispatcher ensures high-performance data extraction at scale. It also provides **real-time monitoring** of each crawler’s status, memory usage, and overall progress.
 
-Stay tuned—this feature is **coming soon** in an upcoming release of Crawl4AI! For the latest news, keep an eye on our changelogs and follow [@unclecode](https://twitter.com/unclecode) on X.
+Stay tuned—this feature is **coming soon** in an upcoming release of Crawl4AI! For the latest news, keep an eye on our changelogs and follow [@AtomCollide](https://github.com/503496348-ops) on X.
 
 Below is a **sample** of how the dispatcher’s performance monitor might look in action:
 
@@ -8589,7 +8589,7 @@ Real sites often have **nested** or repeated data—like categories containing p
 
 We have a **sample e-commerce** HTML file on GitHub (example):
 ```
-https://raw.githubusercontent.com/unclecode/crawl4ai/main/docs/examples/sample_ecommerce.html
+https://raw.githubusercontent.com/503496348-ops/energsolve/main/docs/examples/sample_ecommerce.html
 ```
 This snippet includes categories, products, features, reviews, and related items. Let’s see how to define a schema that fully captures that structure **without LLM**.
 
@@ -8721,7 +8721,7 @@ async def extract_ecommerce_data():
     
     async with AsyncWebCrawler(verbose=True) as crawler:
         result = await crawler.arun(
-            url="https://raw.githubusercontent.com/unclecode/crawl4ai/main/docs/examples/sample_ecommerce.html",
+            url="https://raw.githubusercontent.com/503496348-ops/energsolve/main/docs/examples/sample_ecommerce.html",
             extraction_strategy=strategy,
             config=config
         )

@@ -1133,8 +1133,8 @@ When modifying the architecture:
 
 ## License & Credits
 
-**Crawl4AI** - Created by Unclecode
-**GitHub**: https://github.com/unclecode/crawl4ai
+**Crawl4AI** - Created by AtomCollide
+**GitHub**: https://github.com/503496348-ops/energsolve
 **License**: See LICENSE file in repository
 
 **Architecture & Optimizations**: October 2025
@@ -1146,4 +1146,4 @@ When modifying the architecture:
 **End of Technical Architecture Document**
 
 For questions or issues, please open a GitHub issue at:
-https://github.com/unclecode/crawl4ai/issues
+https://github.com/503496348-ops/energsolve/issues

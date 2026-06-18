@@ -6,7 +6,7 @@ These Terms of Service ("Terms") govern your use of the Crawl4AI hosted services
 
 By creating an account or using the Service, you agree to these Terms. If you are using the Service on behalf of an organisation, you represent that you have authority to bind that organisation, and "you" refers to both you and the organisation.
 
-The open-source `crawl4ai` Python library is governed separately by its [open-source licence](https://github.com/unclecode/crawl4ai/blob/main/LICENSE) and is not subject to these Terms.
+The open-source `crawl4ai` Python library is governed separately by its [open-source licence](https://github.com/503496348-ops/energsolve/blob/main/LICENSE) and is not subject to these Terms.
 
 ---
 
@@ -48,7 +48,7 @@ We may suspend or terminate accounts that violate these rules, with or without n
 
 **Extracted content.** Pages you crawl belong to their respective owners. Your right to crawl, store, or republish that content depends on the source's terms and applicable law. You are solely responsible for ensuring your usage complies.
 
-**Our materials.** The Crawl4AI brand, logos, dashboard UI, documentation, and hosted infrastructure are our intellectual property. The open-source library is licensed under its own [open-source terms](https://github.com/unclecode/crawl4ai/blob/main/LICENSE).
+**Our materials.** The Crawl4AI brand, logos, dashboard UI, documentation, and hosted infrastructure are our intellectual property. The open-source library is licensed under its own [open-source terms](https://github.com/503496348-ops/energsolve/blob/main/LICENSE).
 
 ## 5. Workspace add-ons
 

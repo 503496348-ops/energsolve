@@ -1026,7 +1026,7 @@ You've built a complete AI research assistant that:
 
 ### Resources
 
-- 🐙 **GitHub**: [github.com/unclecode/crawl4ai](https://github.com/unclecode/crawl4ai)
+- 🐙 **GitHub**: [github.com/503496348-ops/energsolve](https://github.com/503496348-ops/energsolve)
 - 📚 **Documentation**: [crawl4ai.com/docs](https://crawl4ai.com/docs)
 - 💬 **Discord**: [Join our community](https://discord.gg/crawl4ai)
 

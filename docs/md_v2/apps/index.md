@@ -286,14 +286,14 @@ Generate working code instantly instead of writing everything from scratch.
 Test and refine your approach before deploying to production.
 
 ### 🤝 **Community Driven**
-These tools are built based on user feedback. Have an idea? [Let us know](https://github.com/unclecode/crawl4ai/issues)!
+These tools are built based on user feedback. Have an idea? [Let us know](https://github.com/503496348-ops/energsolve/issues)!
 
 ## 📢 Stay Updated
 
 Want to know when new apps are released? 
 
-- ⭐ [Star us on GitHub](https://github.com/unclecode/crawl4ai) to get notifications
-- 🐦 Follow [@AtomCollide-智械工坊](https://twitter.com/unclecode) for announcements
+- ⭐ [Star us on GitHub](https://github.com/503496348-ops/energsolve) to get notifications
+- 🐦 Follow [@AtomCollide-智械工坊](https://github.com/503496348-ops) for announcements
 - 💬 Join our [Discord community](https://discord.gg/crawl4ai) for early access
 
 ---

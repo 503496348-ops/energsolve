@@ -4,7 +4,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Configuration
     const config = {
-        githubRepo: 'unclecode/crawl4ai',
+        githubRepo: '503496348-ops/energsolve',
         githubBranch: 'main',
         docsPath: 'docs/md_v2',
         excludePaths: ['/apps/c4a-script/', '/apps/llmtxt/', '/apps/crawl4ai-assistant/', '/core/ask-ai/'], // Don't show on app pages

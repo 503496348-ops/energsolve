@@ -5,7 +5,7 @@
 > set a token, validates request bodies against a strict trust boundary, uses
 > declarative hooks instead of inline Python, and returns artifact ids for
 > screenshot/pdf. If you are upgrading from 0.8.x, read the
-> [migration guide](https://github.com/unclecode/crawl4ai/blob/main/deploy/docker/MIGRATION.md)
+> [migration guide](https://github.com/503496348-ops/energsolve/blob/main/deploy/docker/MIGRATION.md)
 > first. Some examples below are being updated for 0.9.0; the migration guide is
 > the authoritative reference for the new defaults.
 
@@ -82,10 +82,10 @@ Our latest release is `0.8.0`. Images are built with multi-arch manifests, so Do
 
 ```bash
 # Pull the latest version
-docker pull unclecode/crawl4ai:0.8.0
+docker pull 503496348-ops/energsolve:0.8.0
 
 # Or pull using the latest tag
-docker pull unclecode/crawl4ai:latest
+docker pull 503496348-ops/energsolve:latest
 ```
 
 #### 2. Setup Environment (API Keys)
@@ -129,7 +129,7 @@ EOL
       -p 11235:11235 \
       --name crawl4ai \
       --shm-size=1g \
-      unclecode/crawl4ai:latest
+      503496348-ops/energsolve:latest
     ```
 
 *   **With LLM support:**
@@ -140,7 +140,7 @@ EOL
       --name crawl4ai \
       --env-file .llm.env \
       --shm-size=1g \
-      unclecode/crawl4ai:latest
+      503496348-ops/energsolve:latest
     ```
 
 > The server will be available at `http://localhost:11235`. Visit `/playground` to access the interactive testing interface.
@@ -153,7 +153,7 @@ docker stop crawl4ai && docker rm crawl4ai
 
 #### Docker Hub Versioning Explained
 
-*   **Image Name:** `unclecode/crawl4ai`
+*   **Image Name:** `503496348-ops/energsolve`
 *   **Tag Format:** `LIBRARY_VERSION[-SUFFIX]` (e.g., `0.8.0`)
     *   `LIBRARY_VERSION`: The semantic version of the core `crawl4ai` Python library
     *   `SUFFIX`: Optional tag for release candidates (``) and revisions (`r1`)
@@ -167,7 +167,7 @@ Docker Compose simplifies building and running the service, especially for local
 #### 1. Clone Repository
 
 ```bash
-git clone https://github.com/unclecode/crawl4ai.git
+git clone https://github.com/503496348-ops/energsolve.git
 cd crawl4ai
 ```
 
@@ -230,7 +230,7 @@ The `docker-compose.yml` file in the project root provides a simplified approach
     ```bash
     # Pulls and runs the release candidate from Docker Hub
     # Automatically selects the correct architecture
-    IMAGE=unclecode/crawl4ai:latest docker compose up -d
+    IMAGE=503496348-ops/energsolve:latest docker compose up -d
     ```
 
 *   **Build and Run Locally:**
@@ -456,7 +456,7 @@ Executes JavaScript snippets on the specified URL and returns the full crawl res
 > unauthenticated code-execution surface). 0.9.0 replaces it with **declarative
 > hooks**: a fixed set of safe, server-validated actions (for example
 > `add_cookies`, `set_headers`, `block_resources`) supplied as JSON, with no code
-> execution. See the [migration guide](https://github.com/unclecode/crawl4ai/blob/main/deploy/docker/MIGRATION.md)
+> execution. See the [migration guide](https://github.com/503496348-ops/energsolve/blob/main/deploy/docker/MIGRATION.md)
 > for the declarative hook format. The inline-code examples in this section apply
 > to 0.8.x only and are kept for reference until this page is fully rewritten.
 
@@ -2481,7 +2481,7 @@ rate_limiting:
 # secure-by-default - authentication is required, the server binds loopback
 # unless a token is set, and request bodies are validated against a trust
 # boundary. See the migration guide for the 0.9.0 defaults and config keys:
-# https://github.com/unclecode/crawl4ai/blob/main/deploy/docker/MIGRATION.md
+# https://github.com/503496348-ops/energsolve/blob/main/deploy/docker/MIGRATION.md
 security:
   enabled: false # Master toggle for security features
   jwt_enabled: false # Enable JWT authentication (requires security.enabled=true)
@@ -2542,14 +2542,14 @@ You can override the default `config.yml`.
           --env-file .llm.env \
           --shm-size=1g \
           -v $(pwd)/my-custom-config.yml:/app/config.yml \
-          unclecode/crawl4ai:latest # Or your specific tag
+          503496348-ops/energsolve:latest # Or your specific tag
         ```
 
     *   **Using `docker-compose.yml`:** Add a `volumes` section to the service definition:
         ```yaml
         services:
           crawl4ai-hub-amd64: # Or your chosen service
-            image: unclecode/crawl4ai:latest
+            image: 503496348-ops/energsolve:latest
             profiles: ["hub-amd64"]
             <<: *base-config
             volumes:
@@ -2590,7 +2590,7 @@ You can override the default `config.yml`.
 We're here to help you succeed with Crawl4AI! Here's how to get support:
 
 - 📖 Check our [full documentation](https://docs.crawl4ai.com)
-- 🐛 Found a bug? [Open an issue](https://github.com/unclecode/crawl4ai/issues)
+- 🐛 Found a bug? [Open an issue](https://github.com/503496348-ops/energsolve/issues)
 - 💬 Join our [Discord community](https://discord.gg/crawl4ai)
 - ⭐ Star us on GitHub to show support!
 

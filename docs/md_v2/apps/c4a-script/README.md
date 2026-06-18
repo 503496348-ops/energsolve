@@ -12,7 +12,7 @@ A comprehensive web-based tutorial for learning and experimenting with C4A-Scrip
 
 1. **Clone and Navigate**
    ```bash
-   git clone https://github.com/unclecode/crawl4ai.git
+   git clone https://github.com/503496348-ops/energsolve.git
    cd crawl4ai/docs/examples/c4a_script/tutorial/
    ```
 
@@ -393,4 +393,4 @@ Enable detailed logging by setting `DEBUG = True` in `assets/app.js`
 
 **Happy Automating!** 🎉
 
-Need help? Check our [documentation](https://docs.crawl4ai.com) or open an issue on [GitHub](https://github.com/unclecode/crawl4ai).
+Need help? Check our [documentation](https://docs.crawl4ai.com) or open an issue on [GitHub](https://github.com/503496348-ops/energsolve).

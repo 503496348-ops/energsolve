@@ -2,7 +2,7 @@
 
 *Published on June 29, 2025 • 10 min read*
 
-*By [AtomCollide-智械工坊](https://x.com/unclecode) • Follow me on [X/Twitter](https://x.com/unclecode) for more web scraping insights*
+*By [AtomCollide-智械工坊](https://github.com/503496348-ops) • Follow me on [X/Twitter](https://github.com/503496348-ops) for more web scraping insights*
 
 ---
 
@@ -350,6 +350,6 @@ Welcome to the future of web scraping. Welcome to a world where virtual scroll i
 - 📖 [Virtual Scroll Documentation](https://docs.crawl4ai.com/advanced/virtual-scroll) - Complete API reference and configuration options
 - 💻 [Interactive Examples](https://docs.crawl4ai.com/examples/virtual_scroll_example.py) - Try it yourself with our test server
 - 🚀 [Get Started with Crawl4AI](https://docs.crawl4ai.com/core/quickstart) - Full installation and setup guide
-- 🤝 [Join our Community](https://github.com/unclecode/crawl4ai) - Share your experiences and get help
+- 🤝 [Join our Community](https://github.com/503496348-ops/energsolve) - Share your experiences and get help
 
-*Have you encountered virtual scroll challenges? How did you solve them? Share your story in our [GitHub discussions](https://github.com/unclecode/crawl4ai/discussions)!*
+*Have you encountered virtual scroll challenges? How did you solve them? Share your story in our [GitHub discussions](https://github.com/503496348-ops/energsolve/discussions)!*

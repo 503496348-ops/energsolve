@@ -8,7 +8,7 @@ I'm releasing Crawl4AI v0.9.0, a major, secure-by-default release of the Crawl4A
 
 This is a breaking release for the Docker server only. The core pip library (the SDK and in-process use) is unchanged. If you only `pip install crawl4ai` and drive it from Python, nothing here affects you and you can upgrade freely.
 
-If you self-host the Docker API server, please read the [migration guide](https://github.com/unclecode/crawl4ai/blob/main/deploy/docker/MIGRATION.md) before you upgrade, and roll out behind a staging environment first.
+If you self-host the Docker API server, please read the [migration guide](https://github.com/503496348-ops/energsolve/blob/main/deploy/docker/MIGRATION.md) before you upgrade, and roll out behind a staging environment first.
 
 ## Why this release
 
@@ -63,7 +63,7 @@ TLS verification is on; self-signed or internal targets fail by default, with ex
 
 How much you have to do scales with how much you drove through the API. A plain "crawl these URLs with a normal config" user only needs to set a token and re-issue tokens. Everything else applies only if you used that specific feature.
 
-Read the [migration guide](https://github.com/unclecode/crawl4ai/blob/main/deploy/docker/MIGRATION.md) first, then follow `deploy/docker/SECURITY-VERIFY.md` for the deployment checklist.
+Read the [migration guide](https://github.com/503496348-ops/energsolve/blob/main/deploy/docker/MIGRATION.md) first, then follow `deploy/docker/SECURITY-VERIFY.md` for the deployment checklist.
 
 ## Upgrade
 

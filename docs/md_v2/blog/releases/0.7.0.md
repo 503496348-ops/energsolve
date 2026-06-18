@@ -332,9 +332,9 @@ pip install crawl4ai==0.7.0
 Check out the [updated documentation](https://docs.crawl4ai.com).
 
 Questions? Issues? I'm always listening:
-- GitHub: [github.com/unclecode/crawl4ai](https://github.com/unclecode/crawl4ai)
+- GitHub: [github.com/503496348-ops/energsolve](https://github.com/503496348-ops/energsolve)
 - Discord: [discord.gg/crawl4ai](https://discord.gg/jP8KfhDhyN)
-- Twitter: [@AtomCollide-智械工坊](https://x.com/unclecode)
+- Twitter: [@AtomCollide-智械工坊](https://github.com/503496348-ops)
 
 Happy crawling! 🕷️
 

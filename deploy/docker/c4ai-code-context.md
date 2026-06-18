@@ -2422,7 +2422,7 @@ llm_schema.json:
         -c "css_selector=.dashboard-content" \\
         -o markdown
 
-For more documentation visit: https://github.com/unclecode/crawl4ai
+For more documentation visit: https://github.com/503496348-ops/energsolve
 
 8️⃣  Q&A with LLM:
     # Ask a question about the content
@@ -7910,8 +7910,8 @@ from crawl4ai import (
 __location__ = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__)))
 
 print("Crawl4AI: Advanced Web Crawling and Data Extraction")
-print("GitHub Repository: https://github.com/unclecode/crawl4ai")
-print("Twitter: @unclecode")
+print("GitHub Repository: https://github.com/503496348-ops/energsolve")
+print("Twitter: @AtomCollide")
 print("Website: https://crawl4ai.com")
 
 

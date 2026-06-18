@@ -2,7 +2,7 @@
 
 *Published on January 29, 2025 • 8 min read*
 
-*By [AtomCollide-智械工坊](https://x.com/unclecode) • Follow me on [X/Twitter](https://x.com/unclecode) for more web scraping insights*
+*By [AtomCollide-智械工坊](https://github.com/503496348-ops) • Follow me on [X/Twitter](https://github.com/503496348-ops) for more web scraping insights*
 
 ---
 
@@ -324,7 +324,7 @@ Join me in making web crawling intelligent, efficient, and actually useful. Beca
 
 ---
 
-*Adaptive Crawling is now part of Crawl4AI. [Get started with the documentation](/core/adaptive-crawling/) or [dive into the mathematical framework](https://github.com/unclecode/crawl4ai/blob/main/PROGRESSIVE_CRAWLING.md). For updates on my work in information theory and efficient AI, follow me on [X/Twitter](https://x.com/unclecode).*
+*Adaptive Crawling is now part of Crawl4AI. [Get started with the documentation](/core/adaptive-crawling/) or [dive into the mathematical framework](https://github.com/503496348-ops/energsolve/blob/main/PROGRESSIVE_CRAWLING.md). For updates on my work in information theory and efficient AI, follow me on [X/Twitter](https://github.com/503496348-ops).*
 
 <style>
 /* Custom styles for this article */

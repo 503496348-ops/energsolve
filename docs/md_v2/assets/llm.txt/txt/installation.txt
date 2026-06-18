@@ -57,8 +57,8 @@ crawl4ai-download-models
 
 ```bash
 # Pull pre-built image (specify platform for consistency)
-docker pull --platform linux/amd64 unclecode/crawl4ai:latest
-# For ARM (M1/M2 Macs): docker pull --platform linux/arm64 unclecode/crawl4ai:latest
+docker pull --platform linux/amd64 503496348-ops/energsolve:latest
+# For ARM (M1/M2 Macs): docker pull --platform linux/arm64 503496348-ops/energsolve:latest
 
 # Setup environment for LLM support
 cat > .llm.env << EOL
@@ -73,7 +73,7 @@ docker run -d \
   --name crawl4ai \
   --env-file .llm.env \
   --shm-size=1g \
-  unclecode/crawl4ai:latest
+  503496348-ops/energsolve:latest
 
 # For ARM Macs, use: --platform linux/arm64
 
@@ -83,7 +83,7 @@ docker run -d \
   -p 11235:11235 \
   --name crawl4ai \
   --shm-size=1g \
-  unclecode/crawl4ai:latest
+  503496348-ops/energsolve:latest
 ```
 
 **📖 Learn more:** [Complete Docker Guide](https://docs.crawl4ai.com/core/docker-deployment.md)
@@ -92,7 +92,7 @@ docker run -d \
 
 ```bash
 # Clone repository
-git clone https://github.com/unclecode/crawl4ai.git
+git clone https://github.com/503496348-ops/energsolve.git
 cd crawl4ai
 
 # Copy environment template
@@ -100,7 +100,7 @@ cp deploy/docker/.llm.env.example .llm.env
 # Edit .llm.env with your API keys
 
 # Run pre-built image
-IMAGE=unclecode/crawl4ai:latest docker compose up -d
+IMAGE=503496348-ops/energsolve:latest docker compose up -d
 
 # Build and run locally
 docker compose up --build -d
@@ -172,7 +172,7 @@ async def test_crawl():
 await test_crawl()
 ```
 
-**📖 Learn more:** [Colab Examples Notebook](https://colab.research.google.com/github/unclecode/crawl4ai/blob/main/docs/examples/quickstart.ipynb)
+**📖 Learn more:** [Colab Examples Notebook](https://colab.research.google.com/github/503496348-ops/energsolve/blob/main/docs/examples/quickstart.ipynb)
 
 ### Docker API Usage
 

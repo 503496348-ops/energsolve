@@ -35,9 +35,9 @@ A full migration guide will go out with the pre-announcement on Discord and X. W
 ```bash
 pip install -U crawl4ai
 # Docker
-docker pull unclecode/crawl4ai:0.8.8
+docker pull 503496348-ops/energsolve:0.8.8
 ```
 
-Thanks to everyone who reports issues responsibly. Star and use Crawl4AI: https://github.com/unclecode/crawl4ai
+Thanks to everyone who reports issues responsibly. Star and use Crawl4AI: https://github.com/503496348-ops/energsolve
 
 Live long and import crawl4ai

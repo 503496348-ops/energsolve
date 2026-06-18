@@ -358,7 +358,7 @@ result = await adaptive.digest(
 
 - Learn about [Advanced Adaptive Strategies](../advanced/adaptive-strategies.md)
 - Explore the [AdaptiveCrawler API Reference](../api/adaptive-crawler.md)
-- See more [Examples](https://github.com/unclecode/crawl4ai/tree/main/docs/examples/adaptive_crawling)
+- See more [Examples](https://github.com/503496348-ops/energsolve/tree/main/docs/examples/adaptive_crawling)
 
 ## FAQ
 
