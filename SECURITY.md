@@ -19,12 +19,12 @@ We take security vulnerabilities seriously. If you discover a security issue, pl
 Instead, please report via one of these methods:
 
 1. **GitHub Security Advisories (Preferred)**
-   - Go to [Security Advisories](https://github.com/unclecode/crawl4ai/security/advisories)
+   - Go to [Security Advisories](https://github.com/AtomCollide/energsolve/security/advisories)
    - Click "New draft security advisory"
    - Fill in the details
 
 2. **Email**
-   - Send details to: unclecode@crawl4ai.com (CC: nasrin@crawl4ai.com and aravind@crawl4ai.com)
+   - Send details to: security@atomcollide.com
    - Use subject: `[SECURITY] Brief description`
    - Include:
      - Description of the vulnerability
@@ -53,7 +53,7 @@ Instead, please report via one of these methods:
 
 ### Docker API Deployment
 
-If you're running the Crawl4AI Docker API in production:
+If you're running the Energsolve Docker API in production:
 
 1. **Enable Authentication**
    ```yaml
@@ -83,7 +83,7 @@ If you're running the Crawl4AI Docker API in production:
 
 ### Library Usage
 
-When using Crawl4AI as a Python library:
+When using Energsolve as a Python library:
 
 1. **Validate URLs** before crawling untrusted input
 2. **Sanitize extracted content** before using in other systems
@@ -104,7 +104,7 @@ When using Crawl4AI as a Python library:
 |----|----------|-------------|-----|
 | CVE-pending-3 | CRITICAL | RCE via deserialization + `eval()` in `/crawl` endpoint | Allowlisted deserializable types; AST-validated computed field expressions |
 
-See [Security Advisory](https://github.com/unclecode/crawl4ai/security/advisories) for details.
+See [Security Advisory](https://github.com/AtomCollide/energsolve/security/advisories) for details.
 
 ## Security Features
 

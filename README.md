@@ -19,8 +19,8 @@
 | 模块 | 来源 | 能力 |
 |------|------|------|
 | 🕷️ 智能爬取 | Crawl4AI | LLM友好Markdown输出、异步浏览器池、自适应爬取 |
-| 🧠 图驱动提取 | ScrapeGraphAI | LLM+有向图流水线、结构化数据抽取 |
-| 📖 URL转文本 | Jina Reader | 任意URL→Markdown、搜索聚合、PDF/Office支持 |
+| 🧠 图驱动提取 | Energsolve | LLM+有向图流水线、结构化数据抽取 |
+| 📖 URL转文本 | Energsolve | 任意URL→Markdown、搜索聚合、PDF/Office支持 |
 
 ### 使用场景
 
@@ -62,8 +62,8 @@ asyncio.run(analyze_competitor("https://competitor.com"))
 | Module | Origin | Capability |
 |--------|--------|------------|
 | 🕷️ Smart Crawling | Crawl4AI | LLM-friendly Markdown, async browser pool, adaptive crawling |
-| 🧠 Graph-driven Extraction | ScrapeGraphAI | LLM + directed graph pipelines, structured data extraction |
-| 📖 URL-to-Text | Jina Reader | Any URL → Markdown, search aggregation, PDF/Office support |
+| 🧠 Graph-driven Extraction | Energsolve | LLM + directed graph pipelines, structured data extraction |
+| 📖 URL-to-Text | Energsolve | Any URL → Markdown, search aggregation, PDF/Office support |
 
 ### Use Cases
 
@@ -107,14 +107,14 @@ Energsolve
 
 ### Integrated Patterns
 
-**From ScrapeGraphAI:**
+**Graph-driven Extraction:**
 - Graph-based scraping pipelines with LLM reasoning
 - `SmartScraperGraph` pattern for single-page extraction
 - Multi-LLM backend support (OpenAI, Ollama, Gemini, etc.)
 
-**From Jina Reader:**
+**URL-to-Markdown Conversion:**
 - URL-to-Markdown conversion patterns
-- Search-to-content aggregation (`s.jina.ai` pattern)
+- Search-to-content aggregation
 - PDF/Office document parsing (PDF.js + LibreOffice)
 - Headless Chrome + curl-impersonate dual-mode rendering
 

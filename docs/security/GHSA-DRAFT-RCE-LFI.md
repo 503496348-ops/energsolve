@@ -1,7 +1,7 @@
 # GitHub Security Advisory Draft
 
 > **Instructions**: Copy this content to create security advisories at:
-> https://github.com/unclecode/crawl4ai/security/advisories/new
+> https://github.com/AtomCollide/energsolve/security/advisories/new
 
 ---
 
@@ -74,8 +74,8 @@ Discovered by Neo by ProjectDiscovery (https://projectdiscovery.io)
 
 ### References
 
-- [Release Notes v0.8.0](https://github.com/unclecode/crawl4ai/blob/main/docs/RELEASE_NOTES_v0.8.0.md)
-- [Migration Guide](https://github.com/unclecode/crawl4ai/blob/main/docs/migration/v0.8.0-upgrade-guide.md)
+- [Release Notes v0.8.0](https://github.com/AtomCollide/energsolve/blob/main/docs/RELEASE_NOTES_v0.8.0.md)
+- [Migration Guide](https://github.com/AtomCollide/energsolve/blob/main/docs/migration/v0.8.0-upgrade-guide.md)
 
 ---
 
@@ -147,14 +147,14 @@ Discovered by Neo by ProjectDiscovery (https://projectdiscovery.io)
 
 ### References
 
-- [Release Notes v0.8.0](https://github.com/unclecode/crawl4ai/blob/main/docs/RELEASE_NOTES_v0.8.0.md)
-- [Migration Guide](https://github.com/unclecode/crawl4ai/blob/main/docs/migration/v0.8.0-upgrade-guide.md)
+- [Release Notes v0.8.0](https://github.com/AtomCollide/energsolve/blob/main/docs/RELEASE_NOTES_v0.8.0.md)
+- [Migration Guide](https://github.com/AtomCollide/energsolve/blob/main/docs/migration/v0.8.0-upgrade-guide.md)
 
 ---
 
 ## Creating the Advisories on GitHub
 
-1. Go to: https://github.com/unclecode/crawl4ai/security/advisories/new
+1. Go to: https://github.com/AtomCollide/energsolve/security/advisories/new
 
 2. Fill in the form for each advisory:
    - **Ecosystem**: PyPI
