@@ -40,13 +40,29 @@ playwright install
 
 ```python
 import asyncio
-from crawl4ai import AsyncWebCrawler
+from crawl4ai import AsyncWebCrawler, SimpleReader, SmartExtractionPipeline
 
+# 1. 基础爬取
 async def analyze_competitor(url):
     async with AsyncWebCrawler() as crawler:
         result = await crawler.arun(url=url)
         # 获取LLM友好的Markdown内容
         print(result.markdown)
+
+# 2. 一键阅读器（Jina Reader风格）
+async def quick_read(url):
+    reader = SimpleReader()
+    result = await reader.read(url)
+    print(result.markdown)
+
+# 3. 智能图提取（Scrapegraph-ai风格）
+async def smart_extract(url):
+    pipeline = SmartExtractionPipeline(provider="openai/gpt-4o")
+    result = await pipeline.run(
+        prompt="提取产品名称、价格和描述",
+        url=url,
+    )
+    print(result.data)
 
 asyncio.run(analyze_competitor("https://competitor.com"))
 ```
@@ -83,12 +99,28 @@ playwright install
 
 ```python
 import asyncio
-from crawl4ai import AsyncWebCrawler
+from crawl4ai import AsyncWebCrawler, SimpleReader, SmartExtractionPipeline
 
+# 1. Basic crawling
 async def analyze_competitor(url):
     async with AsyncWebCrawler() as crawler:
         result = await crawler.arun(url=url)
         print(result.markdown)  # LLM-ready output
+
+# 2. Simple Reader API (one-call URL-to-Markdown, like Jina Reader)
+async def quick_read(url):
+    reader = SimpleReader()
+    result = await reader.read(url)
+    print(result.markdown)
+
+# 3. Smart Pipeline (LLM-planned graph extraction, like Scrapegraph-ai)
+async def smart_extract(url):
+    pipeline = SmartExtractionPipeline(provider="openai/gpt-4o")
+    result = await pipeline.run(
+        prompt="Extract product name, price, and description",
+        url=url,
+    )
+    print(result.data)
 
 asyncio.run(analyze_competitor("https://competitor.com"))
 ```

@@ -98,6 +98,21 @@ from .script import (
     ErrorDetail
 )
 
+# Smart Extraction Pipeline (Scrapegraph-ai style graph-driven extraction)
+from .smart_pipeline import (
+    SmartExtractionPipeline,
+    PipelineNode,
+    PipelineResult,
+    NodeType,
+)
+
+# Simple Reader API (Jina Reader style URL-to-Markdown)
+from .reader import (
+    SimpleReader,
+    ReaderResult,
+    ContentType,
+)
+
 # Browser Adapters
 from .browser_adapter import (
     BrowserAdapter,
@@ -204,7 +219,16 @@ __all__ = [
     "BrowserAdapter",
     "PlaywrightAdapter", 
     "UndetectedAdapter",
-    "LinkPreviewConfig"
+    "LinkPreviewConfig",
+    # Smart Extraction Pipeline
+    "SmartExtractionPipeline",
+    "PipelineNode",
+    "PipelineResult",
+    "NodeType",
+    # Simple Reader API
+    "SimpleReader",
+    "ReaderResult",
+    "ContentType",
 ]
 
 
