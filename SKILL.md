@@ -1,7 +1,7 @@
 ---
 name: energsolve
 version: 1.0.0
-description: 元气方程（Energsolve）— Agent竞品分析系统。AI驱动网页爬取+结构化数据提取+竞品情报聚合
+description: "AI驱动竞品分析系统。智能网页爬取+结构化数据提取+竞品情报聚合。当需要爬取竞品网站、分析市场情报、提取产品数据时使用。"
 author: AtomCollide-智械工坊团队
 license: Apache-2.0
 triggers:
@@ -74,3 +74,12 @@ Apache-2.0
 ## 作者
 
 AtomCollide-智械工坊团队
+
+## 工作流
+
+使用此技能时，按以下步骤执行：
+- [ ] 1. 确认用户需求和使用场景
+- [ ] 2. 加载相关代码和配置
+- [ ] 3. 执行核心功能
+- [ ] 4. 验证输出结果
+- [ ] 5. 反馈给用户
