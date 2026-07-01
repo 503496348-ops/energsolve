@@ -67,7 +67,7 @@ jobs:
           echo "✅ Package uploaded to https://pypi.org/project/crawl4ai/"
 
       - name: Create GitHub Release
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           tag_name: v${{ steps.get_version.outputs.VERSION }}
           name: Release v${{ steps.get_version.outputs.VERSION }}
