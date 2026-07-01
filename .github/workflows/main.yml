@@ -17,9 +17,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Send to Google Apps Script (Stars only)
-        if: github.event_name == 'watch' && secrets.GOOGLE_SCRIPT_ENDPOINT != ''
+        if: github.event_name == 'watch' && env.GOOGLE_SCRIPT_ENDPOINT != ''
+        env:
+          GOOGLE_SCRIPT_ENDPOINT: ${{ secrets.GOOGLE_SCRIPT_ENDPOINT }}
         run: |
-          curl -fSs -X POST "${{ secrets.GOOGLE_SCRIPT_ENDPOINT }}"             -H 'Content-Type: application/json'             -d '{"url":"${{ github.event.sender.html_url }}"}'
+          curl -fSs -X POST "$GOOGLE_SCRIPT_ENDPOINT"             -H 'Content-Type: application/json'             -d '{"url":"${{ github.event.sender.html_url }}"}'
 
       - name: Set webhook based on event type
         id: set-webhook
