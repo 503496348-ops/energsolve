@@ -273,4 +273,8 @@ cd energsolve
 - [SECURITY](SECURITY.md)
 - [CONTRIBUTING](CONTRIBUTING.md)
 
+## 公司研究双层 Memo
 
+Energsolve 新增公司研究门禁模块 `energsolve_intel/company_research.py`：调研结论分为“速读区”和“深读区”。速读区只展示双信源确认事实；单一来源、自报数据、冲突事实和未披露字段进入审计层，避免把未经验证的信息写成结论。
+
+验证：`python3 -m pytest tests/test_company_research_memo.py -v`

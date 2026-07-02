@@ -12,6 +12,9 @@ triggers:
   - web scraping
   - 元气方程
   - energsolve
+  - 公司速读
+  - 三角验证
+  - 研究memo
 ---
 
 # Energsolve — 元气方程 Agent竞品分析系统
@@ -83,3 +86,24 @@ AtomCollide-智械工坊团队
 - [ ] 3. 执行核心功能
 - [ ] 4. 验证输出结果
 - [ ] 5. 反馈给用户
+
+## 公司研究双层 Memo（v1.1.0）
+
+新增 `energsolve_intel/company_research.py`，用于把竞品/公司调研从“资料汇总”升级为“可审计结论”：
+
+- **速读区只放双信源确认事实**：融资、创始人、客户、估值、关键业务数字等事实必须至少两个独立来源才进入 read-first 层。
+- **深读区保留审计轨迹**：单一来源、自报数据、冲突事实、未披露字段全部进入 audit_trail，不污染核心结论。
+- **验证矩阵标准化**：每条事实输出 category / claim / status / independent_sources / conflicts，便于飞书文档、看板和后续刷新复用。
+- **用户视角锚定**：`build_company_memo(company, facts, lens)` 支持潜在合作、投资标的、竞品对比等不同研究视角。
+
+### 快速调用
+
+```python
+from energsolve_intel.company_research import CompanyFact, build_company_memo
+
+memo = build_company_memo("目标公司", [
+    CompanyFact("融资", "B轮5000万美元", sources=("https://source-a", "https://source-b")),
+    CompanyFact("客户", "服务300家客户", sources=("https://company-site"), reported_by_company=True),
+], lens="竞品对比")
+print(memo.thirty_second_card())
+```

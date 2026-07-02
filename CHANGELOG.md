@@ -1775,3 +1775,8 @@ These changes focus on refining the existing codebase, resulting in a more stabl
 ## [v0.2.4] - 2024-06-17
 ### Fixed
 - Fix issue #22: Use MD5 hash for caching HTML files to handle long URLs
+
+## v1.1.0 — 公司研究双层 Memo
+
+- 新增 `energsolve_intel/company_research.py`：公司事实分类、双信源门禁、速读/深读分层、验证矩阵。
+- 新增 `tests/test_company_research_memo.py`：覆盖自报数据、单一来源、冲突事实不得进入速读区。
