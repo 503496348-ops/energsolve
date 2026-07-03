@@ -1,3 +1,32 @@
+<!-- ZHIXIE_PROFILE_POLISH_START -->
+
+<p align="left">
+<a href="https://github.com/503496348-ops/energsolve/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/503496348-ops/energsolve?style=social"></a>
+<a href="https://github.com/503496348-ops/energsolve/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/503496348-ops/energsolve"></a>
+<img alt="License" src="https://img.shields.io/github/license/503496348-ops/energsolve">
+<a href="https://github.com/503496348-ops/energsolve/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/503496348-ops/energsolve/actions/workflows/ci.yml/badge.svg"></a>
+<img alt="Domain" src="https://img.shields.io/badge/domain-%E7%AB%9E%E5%93%81%E5%88%86%E6%9E%90-blue">
+</p>
+
+## Highlights
+
+- **Product**: Energsolve / 元气方程
+- **Domain**: 竞品分析
+- **Maintained by**: [503496348-ops](https://github.com/503496348-ops) product matrix
+- **Delivery posture**: one-click setup, doctor diagnostics, smoke test, convergence gate, and clean-clone verification are part of the maintenance standard.
+
+## Quality Gates
+
+```bash
+./install.sh
+python3 scripts/doctor.py
+python3 scripts/smoke.py
+python3 scripts/product_convergence_gate.py --json
+python3 -m pytest tests/ -q
+```
+
+<!-- ZHIXIE_PROFILE_POLISH_END -->
+
 ## 一键安装 / One-click Quickstart
 
 ```bash
