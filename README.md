@@ -278,3 +278,8 @@ cd energsolve
 Energsolve 新增公司研究门禁模块 `energsolve_intel/company_research.py`：调研结论分为“速读区”和“深读区”。速读区只展示双信源确认事实；单一来源、自报数据、冲突事实和未披露字段进入审计层，避免把未经验证的信息写成结论。
 
 验证：`python3 -m pytest tests/test_company_research_memo.py -v`
+
+## 2026-07-03 产品收敛门禁
+
+- 新增 `scripts/product_convergence_gate.py`：从远端干净 clone 后可运行 `python3 scripts/product_convergence_gate.py --json`，检查 SKILL/README、入口文件、smoke 目标、测试与外部融合引用是否自洽。
+- 新增 `tests/test_product_convergence_gate.py`：确保门禁在产品仓库中真实可执行，避免后续增强只停留在孤岛模块。
