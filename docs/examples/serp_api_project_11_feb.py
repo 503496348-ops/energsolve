@@ -64,7 +64,7 @@ async def extract_using_llm():
             snippet: str
             sitelinks: Optional[List[Sitelink]] = None        
 
-    llm_extraction_strategy = LLMExtractionStrategy(
+        llm_extraction_strategy = LLMExtractionStrategy(
             llm_config = LLMConfig(
                 provider = "openai/gpt-4o",
             ),
@@ -107,7 +107,7 @@ async def extract_using_llm():
             url="https://www.google.com/search?q=apple%20inc&start=0&num=10",
             config=crawl_config,
         )
-    
+        
         search_result = {}
         if result.success:
             search_result = json.loads(result.extracted_content)
