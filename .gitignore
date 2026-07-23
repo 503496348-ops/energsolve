@@ -311,3 +311,7 @@ out/
 
 # entrypoint.sh is a required deployment artifact (Dockerfile COPYs it)
 !deploy/docker/entrypoint.sh
+
+.env.txt
+.env
+
