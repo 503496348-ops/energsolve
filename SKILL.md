@@ -62,3 +62,12 @@ python3 -m pytest tests/ -q
 - 最小复现（一个变量改变的最小测试）
 
 详见 `references/j-space-empirics.md`
+
+## DNA Memory 融合（决策记忆+验证结晶）
+
+基于 [DNA Memory](https://github.com/AIPMAndy/dna-memory) 决策记忆增强：
+- 竞品分析记忆分型（决策/事实/洞察/进度/假设/流程/教训）
+- 验证结晶流程（假设→采集→交叉验证→结晶/记录失败）
+- 开放事项管理（待验证假设/待采集数据/待深入方向）
+
+详见 `references/dna-memory-analysis-pattern.md`
