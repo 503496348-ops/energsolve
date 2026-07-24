@@ -52,3 +52,13 @@ python3 scripts/cli.py report --format html -o report.html
 ```bash
 python3 -m pytest tests/ -q
 ```
+
+## J-Space 增强（实证/假设验证）
+
+基于 J-Space Cognition Suite v3.2 的实证协议增强竞品分析：
+- 溺水检测器（7种信号→触发实证转向）
+- 命名未知→参数化→独立参考→区分测试
+- 证据回写（匹配/不匹配/不确定→行动）
+- 最小复现（一个变量改变的最小测试）
+
+详见 `references/j-space-empirics.md`
