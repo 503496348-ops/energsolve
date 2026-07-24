@@ -1,6 +1,10 @@
 ---
 name: energsolve
 description: "元气方程竞品分析 — 基于 crawl4ai 的竞品爬取、内容分析、报告生成"
+license: MIT
+metadata:
+  author: 503496348-ops
+  version: 1.0.0
 triggers:
   - "竞品分析"
   - "爬取"
