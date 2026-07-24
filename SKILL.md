@@ -5,16 +5,18 @@ license: MIT
 metadata:
   author: 503496348-ops
   version: 1.0.0
-triggers:
-  - "竞品分析"
-  - "爬取"
-  - "crawl"
-  - "竞品报告"
-  - "energsolve"
-  - "元气方程"
 ---
 
 # Energsolve — 元气方程竞品分析
+
+## 触发条件
+
+- "竞品分析"
+- "爬取"
+- "crawl"
+- "竞品报告"
+- "energsolve"
+- "元气方程"
 
 基于 crawl4ai 的竞品页面爬取 + 内容分析 + 报告生成。
 
