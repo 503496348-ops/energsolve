@@ -6,12 +6,12 @@ import json
 import sys
 
 
-def _has_crawl4ai():
+def _has_crawl4ai() -> None:
     """Check if crawl4ai is available."""
     return importlib.util.find_spec("crawl4ai") is not None
 
 
-def cmd_crawl(args):
+def cmd_crawl(args: list[str]) -> None:
     """Crawl a URL for competitor analysis."""
     if _has_crawl4ai():
         print(
@@ -39,7 +39,7 @@ def cmd_crawl(args):
         )
 
 
-def cmd_analyze(args):
+def cmd_analyze(args: list[str]) -> None:
     """Analyze competitor content."""
     print(
         json.dumps(
@@ -54,7 +54,7 @@ def cmd_analyze(args):
     )
 
 
-def cmd_report(args):
+def cmd_report(args: list[str]) -> None:
     """Generate competitor analysis report."""
     print(
         json.dumps(
@@ -69,7 +69,7 @@ def cmd_report(args):
     )
 
 
-def cmd_info(args):
+def cmd_info(args: list[str]) -> None:
     """Show product info."""
     if _has_crawl4ai():
         try:
@@ -97,7 +97,7 @@ def cmd_info(args):
     )
 
 
-def main():
+def main() -> None:
     p = argparse.ArgumentParser(description="Energsolve 元气方程竞品分析工具")
     sub = p.add_subparsers(dest="command")
 
